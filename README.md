@@ -28,7 +28,6 @@ git checkout
 
 | Asset | Wersja | Aplikacje | Tagi |
 |---|---|---|---|
-| [Test Cube](assets/test-cube/) | v002 | Blender, Maya, 3ds Max | prop, test |
 
 Lista maszynowa: [index.json](index.json).
 
