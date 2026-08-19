@@ -1,0 +1,17 @@
+{
+  "asset": "test-cube",
+  "usd": "test-cube.usd",
+  "fbx": "test-cube.fbx",
+  "objects": [
+    "test_cube_geo"
+  ],
+  "materials": {
+    "body": {
+      "BaseColor": "textures/test-cube_body_BaseColor.png",
+      "Metallic": "textures/test-cube_body_Metallic.png",
+      "Normal": "textures/test-cube_body_Normal.png",
+      "NormalDX": "textures/test-cube_body_NormalDX.png",
+      "Roughness": "textures/test-cube_body_Roughness.png"
+    }
+  }
+}
