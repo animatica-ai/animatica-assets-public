@@ -14,6 +14,7 @@ USD z pelnym shadingiem
 | Blender | blender/ | brak |
 | Maya | maya/ | brak |
 | 3ds Max | max/ | brak |
+| Unreal Engine 5.8.1 | unreal/ | brak |
 
 ## Otwieranie
 

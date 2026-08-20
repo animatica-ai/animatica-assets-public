@@ -13,12 +13,14 @@
       "apps": [
         "blender",
         "maya",
-        "max"
+        "max",
+        "unreal"
       ],
       "rigged": {
         "blender": false,
         "maya": false,
-        "max": false
+        "max": false,
+        "unreal": false
       },
       "thumbnail": "assets/test-cube/preview/thumbnail.png",
       "release": "https://github.com/animatica-ai/animatica-assets-public/releases/download/test-cube-v004/test-cube-v004.zip"
