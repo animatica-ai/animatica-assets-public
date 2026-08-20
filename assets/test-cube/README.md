@@ -27,7 +27,11 @@ ze `source/` lezy obok folderow aplikacji.
   dopiero potem otworz scene. Tekstury rozwiazuja sie przez projekt.
 - **3ds Max** - najpierw ustaw projekt (File > Project > Set Active Project)
   na folder `max/`, dopiero potem otworz scene.
-- **Houdini, Unreal, Omniverse i reszta** - otworz `source/<asset>.usd`. USD ma
+- **Unreal Engine** - skopiuj zawartosc `unreal/Content/` do folderu `Content/`
+  swojego projektu. Pliki `.uasset` sa wersjonowane: otworza sie w silniku
+  w wersji z tabeli powyzej albo nowszej, ale nie w starszej. Jesli potrzebujesz
+  starszej wersji, zaimportuj `source/` samodzielnie.
+- **Houdini, Omniverse i reszta** - otworz `source/<asset>.usd`. USD ma
   juz podpiety shading (`UsdPreviewSurface` + tekstury, sciezki wzgledne),
   wiec nie trzeba niczego podpinac recznie. Skopiuj caly folder `source/`.
 
