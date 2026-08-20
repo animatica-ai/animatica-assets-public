@@ -7,11 +7,7 @@ w natywnych formatach aplikacji oraz uniwersalne zrodla USD/FBX z teksturami.
 
 ## Pobieranie
 
-Najprosciej: **pobierz zip pojedynczego assetu** z tabeli nizej albo
-z zakladki [Releases](https://github.com/animatica-ai/animatica-assets-public/releases).
-Nie trzeba do tego gita ani Git LFS.
-
-Alternatywnie cale repo (wymaga Git LFS):
+Repo uzywa Git LFS - zainstaluj go przed klonowaniem:
 
 ```bash
 git lfs install
@@ -29,9 +25,9 @@ git checkout
 
 ## Assety
 
-| Asset | Wersja | Aplikacje | Tagi | Zip |
-|---|---|---|---|---|
-| [Test Cube](assets/test-cube/) | v004 | Blender, Maya, 3ds Max, Unreal Engine | prop, test | [pobierz](https://github.com/animatica-ai/animatica-assets-public/releases/download/test-cube-v004/test-cube-v004.zip) |
+| Asset | Wersja | Aplikacje | Licencja |
+|---|---|---|---|
+| [Test Cube](assets/test-cube/) | v004 | Blender, Maya, 3ds Max, Unreal Engine | wlasnosc Animatica (© Animatica) |
 
 Lista maszynowa: [index.json](index.json).
 

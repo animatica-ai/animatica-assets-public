@@ -41,3 +41,9 @@ OpenGL (Blender, Maya, Houdini), `NormalDX` to DirectX (3ds Max, Unreal).
 Uwaga dla Mayi: jej importer USD ignoruje `sourceColorSpace` i ustawia wszystkim
 teksturom sRGB. W Mayi uzywaj gotowej sceny z `maya/` - ma poprawny color space.
 
+## Licencja
+
+**wlasnosc Animatica**
+
+Autor / wlasciciel praw: **Animatica**.
+

@@ -23,7 +23,11 @@
         "unreal": false
       },
       "thumbnail": "assets/test-cube/preview/thumbnail.png",
-      "release": "https://github.com/animatica-ai/animatica-assets-public/releases/download/test-cube-v004/test-cube-v004.zip"
+      "license": {
+        "id": "animatica-owned",
+        "holder": "Animatica",
+        "url": ""
+      }
     }
   ]
 }
