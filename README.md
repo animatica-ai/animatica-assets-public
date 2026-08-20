@@ -31,7 +31,7 @@ git checkout
 
 | Asset | Wersja | Aplikacje | Tagi | Zip |
 |---|---|---|---|---|
-| [Test Cube](assets/test-cube/) | v003 | Blender, Maya, 3ds Max | prop, test | [pobierz](https://github.com/animatica-ai/animatica-assets-public/releases/download/test-cube-v003/test-cube-v003.zip) |
+| [Test Cube](assets/test-cube/) | v004 | Blender, Maya, 3ds Max | prop, test | [pobierz](https://github.com/animatica-ai/animatica-assets-public/releases/download/test-cube-v004/test-cube-v004.zip) |
 
 Lista maszynowa: [index.json](index.json).
 

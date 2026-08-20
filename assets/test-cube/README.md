@@ -1,8 +1,8 @@
 # Test Cube
 
-Wersja **v003** (2026-08-20). Jednostki: meters.
+Wersja **v004** (2026-08-20). Jednostki: meters.
 
-weryfikacja pelnego cyklu pipeline
+USD z pelnym shadingiem
 
 ![podglad](preview/thumbnail.png)
 
@@ -10,7 +10,7 @@ weryfikacja pelnego cyklu pipeline
 
 | Aplikacja | Folder | Rig |
 |---|---|---|
-| uniwersalne | source/ (USD + FBX + tekstury) | - |
+| uniwersalne | source/ (USD z shadingiem + FBX + tekstury) | - |
 | Blender | blender/ | brak |
 | Maya | maya/ | brak |
 | 3ds Max | max/ | brak |
@@ -26,8 +26,13 @@ ze `source/` lezy obok folderow aplikacji.
   dopiero potem otworz scene. Tekstury rozwiazuja sie przez projekt.
 - **3ds Max** - najpierw ustaw projekt (File > Project > Set Active Project)
   na folder `max/`, dopiero potem otworz scene.
-- **Inne programy** - uzyj `source/` (USD albo FBX) i tekstur z `source/textures/`.
+- **Houdini, Unreal, Omniverse i reszta** - otworz `source/<asset>.usd`. USD ma
+  juz podpiety shading (`UsdPreviewSurface` + tekstury, sciezki wzgledne),
+  wiec nie trzeba niczego podpinac recznie. Skopiuj caly folder `source/`.
 
 Tekstury sa w konwencji PBR Metallic-Roughness. Kanal `Normal` to normalne
 OpenGL (Blender, Maya, Houdini), `NormalDX` to DirectX (3ds Max, Unreal).
+
+Uwaga dla Mayi: jej importer USD ignoruje `sourceColorSpace` i ustawia wszystkim
+teksturom sRGB. W Mayi uzywaj gotowej sceny z `maya/` - ma poprawny color space.
 
