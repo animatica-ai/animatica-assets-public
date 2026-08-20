@@ -17,6 +17,9 @@ weryfikacja pelnego cyklu pipeline
 
 ## Otwieranie
 
+Zip z Releases rozpakuj w calosci - sciezki do tekstur sa wzgledne i zakladaja
+ze `source/` lezy obok folderow aplikacji.
+
 - **Blender** - otworz plik z `blender/`. Tekstury sa podlinkowane sciezkami
   wzglednymi, wiec dzialaja od razu. Nie przenos folderu `source/`.
 - **Maya** - najpierw ustaw projekt (File > Set Project) na folder `maya/`,

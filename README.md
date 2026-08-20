@@ -7,18 +7,21 @@ w natywnych formatach aplikacji oraz uniwersalne zrodla USD/FBX z teksturami.
 
 ## Pobieranie
 
-Repo uzywa Git LFS - zainstaluj go przed klonowaniem:
+Najprosciej: **pobierz zip pojedynczego assetu** z tabeli nizej albo
+z zakladki [Releases](https://github.com/animatica-ai/animatica-assets-public/releases).
+Nie trzeba do tego gita ani Git LFS.
+
+Alternatywnie cale repo (wymaga Git LFS):
 
 ```bash
 git lfs install
 git clone https://github.com/animatica-ai/animatica-assets-public.git
 ```
 
-Pojedynczy asset, bez sciagania calosci:
+Pojedynczy asset przez gita, bez sciagania calosci:
 
 ```bash
-git clone --filter=blob:none --no-checkout \
-  https://github.com/animatica-ai/animatica-assets-public.git
+git clone --filter=blob:none --no-checkout https://github.com/animatica-ai/animatica-assets-public.git
 cd animatica-assets-public
 git sparse-checkout set assets/NAZWA-ASSETU
 git checkout
@@ -26,9 +29,9 @@ git checkout
 
 ## Assety
 
-| Asset | Wersja | Aplikacje | Tagi |
-|---|---|---|---|
-| [Test Cube](assets/test-cube/) | v003 | Blender, Maya, 3ds Max | prop, test |
+| Asset | Wersja | Aplikacje | Tagi | Zip |
+|---|---|---|---|---|
+| [Test Cube](assets/test-cube/) | v003 | Blender, Maya, 3ds Max | prop, test | [pobierz](https://github.com/animatica-ai/animatica-assets-public/releases/download/test-cube-v003/test-cube-v003.zip) |
 
 Lista maszynowa: [index.json](index.json).
 

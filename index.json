@@ -20,7 +20,8 @@
         "maya": false,
         "max": false
       },
-      "thumbnail": "assets/test-cube/preview/thumbnail.png"
+      "thumbnail": "assets/test-cube/preview/thumbnail.png",
+      "release": "https://github.com/animatica-ai/animatica-assets-public/releases/download/test-cube-v003/test-cube-v003.zip"
     }
   ]
 }
