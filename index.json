@@ -1,33 +1,3 @@
 {
-  "assets": [
-    {
-      "name": "test-cube",
-      "displayName": "Test Cube",
-      "version": "v004",
-      "date": "2026-08-20",
-      "tags": [
-        "prop",
-        "test"
-      ],
-      "units": "meters",
-      "apps": [
-        "blender",
-        "maya",
-        "max",
-        "unreal"
-      ],
-      "rigged": {
-        "blender": false,
-        "maya": false,
-        "max": false,
-        "unreal": false
-      },
-      "thumbnail": "assets/test-cube/preview/thumbnail.png",
-      "license": {
-        "id": "animatica-owned",
-        "holder": "Animatica",
-        "url": ""
-      }
-    }
-  ]
+  "assets": []
 }

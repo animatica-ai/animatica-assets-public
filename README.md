@@ -27,7 +27,6 @@ git checkout
 
 | Asset | Wersja | Aplikacje | Licencja |
 |---|---|---|---|
-| [Test Cube](assets/test-cube/) | v004 | Blender, Maya, 3ds Max, Unreal Engine | wlasnosc Animatica (© Animatica) |
 
 Lista maszynowa: [index.json](index.json).
 
