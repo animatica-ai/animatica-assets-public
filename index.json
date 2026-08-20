@@ -1,3 +1,26 @@
 {
-  "assets": []
+  "assets": [
+    {
+      "name": "test-cube",
+      "displayName": "Test Cube",
+      "version": "v003",
+      "date": "2026-08-20",
+      "tags": [
+        "prop",
+        "test"
+      ],
+      "units": "meters",
+      "apps": [
+        "blender",
+        "maya",
+        "max"
+      ],
+      "rigged": {
+        "blender": false,
+        "maya": false,
+        "max": false
+      },
+      "thumbnail": "assets/test-cube/preview/thumbnail.png"
+    }
+  ]
 }

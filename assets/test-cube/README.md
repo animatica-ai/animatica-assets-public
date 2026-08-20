@@ -1,8 +1,8 @@
 # Test Cube
 
-Wersja **v002** (2026-08-20). Jednostki: meters.
+Wersja **v003** (2026-08-20). Jednostki: meters.
 
-test-cube z poprawnymi teksturami
+weryfikacja pelnego cyklu pipeline
 
 ![podglad](preview/thumbnail.png)
 
