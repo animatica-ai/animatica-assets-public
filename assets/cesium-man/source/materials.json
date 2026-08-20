@@ -1,0 +1,13 @@
+{
+  "asset": "cesium-man",
+  "usd": "cesium-man.usd",
+  "fbx": "cesium-man.fbx",
+  "objects": [
+    "cesium_man_geo"
+  ],
+  "materials": {
+    "body": {
+      "BaseColor": "textures/cesium-man_body_BaseColor.png"
+    }
+  }
+}
