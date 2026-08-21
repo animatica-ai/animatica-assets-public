@@ -1,0 +1,18 @@
+{
+  "asset": "blocky-character",
+  "usd": "blocky-character.usd",
+  "fbx": "blocky-character.fbx",
+  "objects": [
+    "leg_left",
+    "leg_right",
+    "torso",
+    "arm_left",
+    "arm_right",
+    "head"
+  ],
+  "materials": {
+    "body": {
+      "BaseColor": "textures/blocky-character_body_BaseColor.png"
+    }
+  }
+}

@@ -31,6 +31,7 @@ git checkout
 
 | Asset | Wersja | Aplikacje | Licencja | Zip |
 |---|---|---|---|---|
+| [Blocky Character](assets/blocky-character/) | v001 | Blender, Maya, 3ds Max, Unreal Engine | CC0 1.0 (domena publiczna) (© Kenney) | [pobierz](https://github.com/animatica-ai/animatica-assets-public/releases/download/blocky-character-v001/blocky-character-v001.zip) |
 | [Cesium Man](assets/cesium-man/) | v001 | Blender, Maya, 3ds Max, Unreal Engine | CC BY 4.0 (© Cesium) | [pobierz](https://github.com/animatica-ai/animatica-assets-public/releases/download/cesium-man-v001/cesium-man-v001.zip) |
 | [Test Cube](assets/test-cube/) | v004 | Blender, Maya, 3ds Max, Unreal Engine | wlasnosc Animatica (© Animatica) | [pobierz](https://github.com/animatica-ai/animatica-assets-public/releases/download/test-cube-v004/test-cube-v004.zip) |
 

@@ -1,6 +1,38 @@
 {
   "assets": [
     {
+      "name": "blocky-character",
+      "displayName": "Blocky Character",
+      "version": "v001",
+      "date": "2026-08-21",
+      "tags": [
+        "character",
+        "rigged",
+        "cc0",
+        "test"
+      ],
+      "units": "meters",
+      "apps": [
+        "blender",
+        "maya",
+        "max",
+        "unreal"
+      ],
+      "rigged": {
+        "blender": true,
+        "maya": false,
+        "max": false,
+        "unreal": false
+      },
+      "thumbnail": "assets/blocky-character/preview/thumbnail.png",
+      "license": {
+        "id": "CC0-1.0",
+        "holder": "Kenney",
+        "url": "https://kenney.nl/assets/blocky-characters"
+      },
+      "release": "https://github.com/animatica-ai/animatica-assets-public/releases/download/blocky-character-v001/blocky-character-v001.zip"
+    },
+    {
       "name": "cesium-man",
       "displayName": "Cesium Man",
       "version": "v001",
