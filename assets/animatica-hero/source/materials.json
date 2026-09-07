@@ -1,0 +1,16 @@
+{
+  "asset": "animatica-hero",
+  "usd": "animatica-hero.usd",
+  "fbx": "animatica-hero.fbx",
+  "objects": [
+    "animatica_hero_geo"
+  ],
+  "materials": {
+    "body": {
+      "BaseColor": "textures/animatica-hero_body_BaseColor.png",
+      "Normal": "textures/animatica-hero_body_Normal.png",
+      "NormalDX": "textures/animatica-hero_body_NormalDX.png",
+      "Roughness": "textures/animatica-hero_body_Roughness.png"
+    }
+  }
+}

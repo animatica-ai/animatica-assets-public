@@ -1,0 +1,6 @@
+//Maya 2027 Project Definition
+
+workspace -fr "scene" ".";
+workspace -fr "images" "images";
+workspace -fr "particles" "particles";
+workspace -fr "sourceImages" "../source/textures";
