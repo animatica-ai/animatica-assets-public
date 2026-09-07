@@ -1,49 +1,51 @@
 # Blocky Character
 
-Wersja **v001** (2026-08-21). Jednostki: meters.
+Version **v001** (2026-08-21). Units: meters.
 
-import Blocky Character (Kenney, CC0)
+import of Blocky Character (Kenney, CC0)
 
-![podglad](preview/thumbnail.png)
+![preview](preview/thumbnail.png)
 
-## Zawartosc
+## Contents
 
-| Aplikacja | Folder | Rig |
+| Application | Folder | Rig |
 |---|---|---|
-| uniwersalne | source/ (USD z shadingiem + FBX + tekstury) | - |
-| Blender | blender/ | tak |
-| Maya | maya/ | brak |
-| 3ds Max | max/ | brak |
-| Unreal Engine 5.8.1 | unreal/ | brak |
+| universal | source/ (USD with shading + FBX + textures) | - |
+| Blender | blender/ | yes |
+| Maya | maya/ | no |
+| 3ds Max | max/ | no |
+| Unreal Engine 5.8.1 | unreal/ | no |
 
-## Otwieranie
+## Opening the files
 
-Zip z Releases rozpakuj w calosci - sciezki do tekstur sa wzgledne i zakladaja
-ze `source/` lezy obok folderow aplikacji.
+Unpack the Releases zip whole - texture paths are relative and assume that
+`source/` sits next to the application folders.
 
-- **Blender** - otworz plik z `blender/`. Tekstury sa podlinkowane sciezkami
-  wzglednymi, wiec dzialaja od razu. Nie przenos folderu `source/`.
-- **Maya** - najpierw ustaw projekt (File > Set Project) na folder `maya/`,
-  dopiero potem otworz scene. Tekstury rozwiazuja sie przez projekt.
-- **3ds Max** - najpierw ustaw projekt (File > Project > Set Active Project)
-  na folder `max/`, dopiero potem otworz scene.
-- **Unreal Engine** - skopiuj zawartosc `unreal/Content/` do folderu `Content/`
-  swojego projektu. Pliki `.uasset` sa wersjonowane: otworza sie w silniku
-  w wersji z tabeli powyzej albo nowszej, ale nie w starszej. Jesli potrzebujesz
-  starszej wersji, zaimportuj `source/` samodzielnie.
-- **Houdini, Omniverse i reszta** - otworz `source/<asset>.usd`. USD ma
-  juz podpiety shading (`UsdPreviewSurface` + tekstury, sciezki wzgledne),
-  wiec nie trzeba niczego podpinac recznie. Skopiuj caly folder `source/`.
+- **Blender** - open the file in `blender/`. Textures are linked by relative
+  paths, so they work straight away. Do not move the `source/` folder.
+- **Maya** - set the project first (File > Set Project) to the `maya/` folder,
+  and only then open the scene. Textures resolve through the project.
+- **3ds Max** - set the project first (File > Project > Set Active Project)
+  to the `max/` folder, and only then open the scene.
+- **Unreal Engine** - copy the contents of `unreal/Content/` into your
+  project's `Content/` folder. The `.uasset` files are versioned: they open
+  in the engine version listed in the table above or newer, but not older.
+  If you need an older version, import `source/` yourself.
+- **Houdini, Omniverse and the rest** - open `source/<asset>.usd`. The USD
+  already carries its shading (`UsdPreviewSurface` + textures, relative
+  paths), so nothing needs wiring by hand. Copy the whole `source/` folder.
 
-Tekstury sa w konwencji PBR Metallic-Roughness. Kanal `Normal` to normalne
-OpenGL (Blender, Maya, Houdini), `NormalDX` to DirectX (3ds Max, Unreal).
+Textures follow the PBR Metallic-Roughness convention. The `Normal` channel
+is OpenGL normals (Blender, Maya, Houdini), `NormalDX` is DirectX (3ds Max,
+Unreal).
 
-Uwaga dla Mayi: jej importer USD ignoruje `sourceColorSpace` i ustawia wszystkim
-teksturom sRGB. W Mayi uzywaj gotowej sceny z `maya/` - ma poprawny color space.
+A note for Maya: its USD importer ignores `sourceColorSpace` and assigns sRGB
+to every texture. In Maya, use the prepared scene in `maya/` - it has the
+correct color space.
 
-## Licencja
+## License
 
-**CC0 1.0 (domena publiczna)** - https://kenney.nl/assets/blocky-characters
+**CC0 1.0 (public domain)** - https://kenney.nl/assets/blocky-characters
 
-Autor / wlasciciel praw: **Kenney**.
+Author / rights holder: **Kenney**.
 

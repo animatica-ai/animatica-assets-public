@@ -1,33 +1,36 @@
 # animatica-assets-public
 
-Assety 3D do pobrania - [animatica.ai](https://animatica.ai).
+3D assets to download - [animatica.ai](https://animatica.ai).
 
-Kazdy asset zawiera geometrie, shading network i (jesli istnieje) rig
-w natywnych formatach aplikacji oraz uniwersalne zrodla USD/FBX z teksturami.
+Every asset ships geometry, a shading network and (where one exists) a rig
+in native application formats, plus universal USD/FBX sources with textures.
 
-## Pobieranie
+## Downloading
 
-Repo uzywa Git LFS - zainstaluj go przed klonowaniem:
+The repo uses Git LFS - install it before cloning:
 
 ```bash
 git lfs install
 git clone https://github.com/animatica-ai/animatica-assets-public.git
 ```
 
-Pojedynczy asset przez gita, bez sciagania calosci:
+A single asset through git, without pulling everything:
 
 ```bash
 git clone --filter=blob:none --no-checkout https://github.com/animatica-ai/animatica-assets-public.git
 cd animatica-assets-public
-git sparse-checkout set assets/NAZWA-ASSETU
+git sparse-checkout set assets/ASSET-NAME
 git checkout
 ```
 
-## Assety
+## Assets
 
-| Asset | Wersja | Aplikacje | Licencja |
+| Asset | Version | Applications | License |
 |---|---|---|---|
-| [Animatica Hero](assets/animatica-hero/) | v002 | Blender, Maya, 3ds Max, Unreal Engine | wlasnosc Animatica · Animatica |
+| [Animatica Hero](assets/animatica-hero/) | v002 | Blender, Maya, 3ds Max, Unreal Engine | owned by Animatica · Animatica |
+| [Blocky Character](assets/blocky-character/) | v001 | Blender, Maya, 3ds Max, Unreal Engine | CC0 1.0 (public domain) · Kenney |
+| [Cesium Man](assets/cesium-man/) | v001 | Blender, Maya, 3ds Max, Unreal Engine | CC BY 4.0 · Cesium |
+| [Test Cube](assets/test-cube/) | v004 | Blender, Maya, 3ds Max, Unreal Engine | owned by Animatica · Animatica |
 
-Lista maszynowa: [index.json](index.json).
+Machine-readable listing: [index.json](index.json).
 
