@@ -1,8 +1,8 @@
 # Animatica Hero
 
-Version **v002** (2026-09-07). Units: meters.
+Version **v003** (2026-09-08). Units: meters.
 
-skinning update: Animatica_hero_v03.fbx; geometry and UVs unchanged, textures re-wired to the set in the repo
+rigged source: skeleton and skin in rest pose, embedded textures; opens complete in MotionBuilder (untick 'canonical skeletons only', then Adopt)
 
 ![preview](preview/thumbnail.png)
 
@@ -10,16 +10,23 @@ skinning update: Animatica_hero_v03.fbx; geometry and UVs unchanged, textures re
 
 | Application | Folder | Rig |
 |---|---|---|
-| universal | source/ (USD with shading + FBX + textures) | - |
+| universal | source/ (USD with shading + FBX + textures) | yes (77 bones) |
 | Blender | blender/ | yes |
-| Maya | maya/ | no |
-| 3ds Max | max/ | no |
-| Unreal Engine 5.8.1 | unreal/ | no |
+| Maya | maya/ | yes |
+| 3ds Max | max/ | yes |
+| Unreal Engine 5.8.1 | unreal/ | yes |
 
 ## Opening the files
 
 Unpack the Releases zip whole - texture paths are relative and assume that
 `source/` sits next to the application folders.
+
+The source FBX carries the skeleton and the skin in rest pose with embedded
+textures and no animation - the animations live in the Blender variant. In
+MotionBuilder untick "canonical skeletons only" and use Adopt: the FBX does
+not carry the `animatica_*` custom properties yet. Its viewport shows the
+model grey until you switch Renderer to USD Renderer - the textures are
+embedded in the file either way.
 
 - **Blender** - open the file in `blender/`. Textures are linked by relative
   paths, so they work straight away. Do not move the `source/` folder.

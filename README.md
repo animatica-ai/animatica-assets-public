@@ -32,9 +32,7 @@ git checkout
 | Asset | Version | Applications | License |
 |---|---|---|---|
 | [Animatica Hero](assets/animatica-hero/) | v003 | Blender, Maya, 3ds Max, Unreal Engine | owned by Animatica · Animatica |
-| [Blocky Character](assets/blocky-character/) | v002 | Blender, Maya, 3ds Max, Unreal Engine | CC0 1.0 (public domain) · Kenney |
 | [Cesium Man](assets/cesium-man/) | v002 | Blender, Maya, 3ds Max, Unreal Engine | CC BY 4.0 · Cesium |
-| [Test Cube](assets/test-cube/) | v005 | Blender, Maya, 3ds Max, Unreal Engine | owned by Animatica · Animatica |
 
 Machine-readable listing: [index.json](index.json).
 

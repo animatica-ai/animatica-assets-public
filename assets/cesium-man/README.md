@@ -24,7 +24,9 @@ Unpack the Releases zip whole - texture paths are relative and assume that
 The source FBX carries the skeleton and the skin in rest pose with embedded
 textures and no animation - the animations live in the Blender variant. In
 MotionBuilder untick "canonical skeletons only" and use Adopt: the FBX does
-not carry the `animatica_*` custom properties yet.
+not carry the `animatica_*` custom properties yet. Its viewport shows the
+model grey until you switch Renderer to USD Renderer - the textures are
+embedded in the file either way.
 
 - **Blender** - open the file in `blender/`. Textures are linked by relative
   paths, so they work straight away. Do not move the `source/` folder.

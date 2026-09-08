@@ -12,5 +12,19 @@
       "NormalDX": "textures/animatica-hero_body_NormalDX.png",
       "Roughness": "textures/animatica-hero_body_Roughness.png"
     }
-  }
+  },
+  "rigged": true,
+  "skeleton": {
+    "armature": "Armature",
+    "bones": 77,
+    "deform_bones": 77,
+    "roots": [
+      "animatica:Hips"
+    ]
+  },
+  "bounds_m": [
+    1.868984,
+    0.316934,
+    1.757197
+  ]
 }
