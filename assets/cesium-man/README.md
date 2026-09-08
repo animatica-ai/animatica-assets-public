@@ -1,8 +1,8 @@
 # Cesium Man
 
-Version **v001** (2026-08-20). Units: meters.
+Version **v002** (2026-09-08). Units: meters.
 
-import of CesiumMan from glTF-Sample-Assets
+rigged source: skeleton and skin in rest pose, embedded textures; animation stays in the Blender variant
 
 ![preview](preview/thumbnail.png)
 
@@ -10,16 +10,21 @@ import of CesiumMan from glTF-Sample-Assets
 
 | Application | Folder | Rig |
 |---|---|---|
-| universal | source/ (USD with shading + FBX + textures) | - |
+| universal | source/ (USD with shading + FBX + textures) | yes (19 bones) |
 | Blender | blender/ | yes |
-| Maya | maya/ | no |
-| 3ds Max | max/ | no |
-| Unreal Engine 5.8.1 | unreal/ | no |
+| Maya | maya/ | yes |
+| 3ds Max | max/ | yes |
+| Unreal Engine 5.8.1 | unreal/ | yes |
 
 ## Opening the files
 
 Unpack the Releases zip whole - texture paths are relative and assume that
 `source/` sits next to the application folders.
+
+The source FBX carries the skeleton and the skin in rest pose with embedded
+textures and no animation - the animations live in the Blender variant. In
+MotionBuilder untick "canonical skeletons only" and use Adopt: the FBX does
+not carry the `animatica_*` custom properties yet.
 
 - **Blender** - open the file in `blender/`. Textures are linked by relative
   paths, so they work straight away. Do not move the `source/` folder.

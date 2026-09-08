@@ -3,8 +3,8 @@
     {
       "name": "animatica-hero",
       "displayName": "Animatica Hero",
-      "version": "v002",
-      "date": "2026-09-07",
+      "version": "v003",
+      "date": "2026-09-08",
       "tags": [
         "character",
         "rigged",
@@ -19,22 +19,26 @@
       ],
       "rigged": {
         "blender": true,
-        "maya": false,
-        "max": false,
-        "unreal": false
+        "maya": true,
+        "max": true,
+        "unreal": true
       },
       "thumbnail": "assets/animatica-hero/preview/thumbnail.png",
       "license": {
         "id": "animatica-owned",
         "holder": "Animatica",
         "url": ""
+      },
+      "source": {
+        "rigged": true,
+        "bones": 77
       }
     },
     {
       "name": "blocky-character",
       "displayName": "Blocky Character",
-      "version": "v001",
-      "date": "2026-08-21",
+      "version": "v002",
+      "date": "2026-09-08",
       "tags": [
         "character",
         "rigged",
@@ -49,7 +53,7 @@
         "unreal"
       ],
       "rigged": {
-        "blender": true,
+        "blender": false,
         "maya": false,
         "max": false,
         "unreal": false
@@ -59,13 +63,17 @@
         "id": "CC0-1.0",
         "holder": "Kenney",
         "url": "https://kenney.nl/assets/blocky-characters"
+      },
+      "source": {
+        "rigged": false,
+        "bones": 0
       }
     },
     {
       "name": "cesium-man",
       "displayName": "Cesium Man",
-      "version": "v001",
-      "date": "2026-08-20",
+      "version": "v002",
+      "date": "2026-09-08",
       "tags": [
         "character",
         "rigged",
@@ -80,22 +88,26 @@
       ],
       "rigged": {
         "blender": true,
-        "maya": false,
-        "max": false,
-        "unreal": false
+        "maya": true,
+        "max": true,
+        "unreal": true
       },
       "thumbnail": "assets/cesium-man/preview/thumbnail.png",
       "license": {
         "id": "CC-BY-4.0",
         "holder": "Cesium",
         "url": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CesiumMan"
+      },
+      "source": {
+        "rigged": true,
+        "bones": 19
       }
     },
     {
       "name": "test-cube",
       "displayName": "Test Cube",
-      "version": "v004",
-      "date": "2026-08-20",
+      "version": "v005",
+      "date": "2026-09-08",
       "tags": [
         "prop",
         "test"
@@ -118,6 +130,10 @@
         "id": "animatica-owned",
         "holder": "Animatica",
         "url": ""
+      },
+      "source": {
+        "rigged": false,
+        "bones": 0
       }
     }
   ]

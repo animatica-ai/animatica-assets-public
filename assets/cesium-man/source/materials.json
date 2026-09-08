@@ -9,5 +9,19 @@
     "body": {
       "BaseColor": "textures/cesium-man_body_BaseColor.png"
     }
-  }
+  },
+  "rigged": true,
+  "skeleton": {
+    "armature": "Armature",
+    "bones": 19,
+    "deform_bones": 19,
+    "roots": [
+      "Skeleton_torso_joint_1"
+    ]
+  },
+  "bounds_m": [
+    1.138274,
+    0.311954,
+    1.50655
+  ]
 }
