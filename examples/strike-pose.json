@@ -1,0 +1,10 @@
+{
+  "title": "Walk and strike a pose",
+  "tier": 3,
+  "seconds": 3.5,
+  "prompt": "a person walks forward \u2192 a person stops and raises both arms in victory",
+  "lesson": "A key pose is a keyframe the motion has to hit. This one came from Generate Pose @ Frame; make your own at any frame, or pose it by hand.",
+  "character": "Animatica Hero",
+  "credit": "",
+  "order": 5
+}

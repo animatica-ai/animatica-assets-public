@@ -1,0 +1,10 @@
+{
+  "title": "Run, then stop",
+  "tier": 2,
+  "seconds": 5.0,
+  "prompt": "a person runs forward \u2192 a person slows down and stops",
+  "lesson": "One block runs, the next stops, and two circles on one spot say where: reached by frame 100, still there at 120.",
+  "character": "Animatica Hero",
+  "credit": "",
+  "order": 4
+}

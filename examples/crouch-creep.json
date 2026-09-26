@@ -1,0 +1,10 @@
+{
+  "title": "Creep around the crate",
+  "tier": 4,
+  "seconds": 8.0,
+  "prompt": "a person standing upright slowly crouches down \u2192 a person creeps forward slowly in a crouch \u2192 a person stands up",
+  "lesson": "Blocks set the beats, waypoints the route, and facing along the path turns the body with it. Resize a block, or drag a circle, and generate again.",
+  "character": "Animatica Hero",
+  "credit": "",
+  "order": 7
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Walk to the chair, sit",
+  "tier": 4,
+  "seconds": 5.5,
+  "prompt": "a person walks forward \u2192 a person turns around \u2192 a person sits down on the chair",
+  "lesson": "Everything at once: a block per action, key poses for how it starts and ends, waypoints for where it walks \u2014 the last one set to face back. The seated hands were fixed with the Autoposer; try it on any key pose.",
+  "character": "Animatica Hero",
+  "credit": "",
+  "order": 8
+}
