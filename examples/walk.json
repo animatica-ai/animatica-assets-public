@@ -1,0 +1,10 @@
+{
+  "title": "Walk",
+  "tier": 1,
+  "seconds": 3.0,
+  "prompt": "a person walks forward at a steady pace",
+  "lesson": "Travel. The character goes somewhere, and the trail shows the path.",
+  "character": "Cesium Man",
+  "credit": "Cesium Man by Cesium, CC-BY-4.0 \u2014 https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CesiumMan",
+  "order": 1
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Jab, then cross",
+  "tier": 2,
+  "seconds": 2.0,
+  "prompt": "a person throws a jab \u2192 a person throws a right cross",
+  "lesson": "Two actions, two blocks. One action per block, each as long as it takes; the timeline sets the order.",
+  "character": "Cesium Man",
+  "credit": "Cesium Man by Cesium, CC-BY-4.0 \u2014 https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CesiumMan",
+  "order": 3
+}

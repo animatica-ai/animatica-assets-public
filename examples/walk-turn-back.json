@@ -1,0 +1,10 @@
+{
+  "title": "Walk, turn, walk back",
+  "tier": 3,
+  "seconds": 6.0,
+  "prompt": "a person walks forward \u2192 a person turns around \u2192 a person walks forward",
+  "lesson": "A block per action sets what happens; each circle on the floor says where to be, and when. Drag one, or change its frame, and generate again.",
+  "character": "Animatica Hero",
+  "credit": "",
+  "order": 6
+}
