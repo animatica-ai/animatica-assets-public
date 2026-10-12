@@ -54,7 +54,7 @@
         "tag": "animatica-hero-v004",
         "zip": {
           "file": "animatica-hero-v004.zip",
-          "sha256": "e0ad9d75a27b22f01208a560bbdef15224f79583e553ff8a46d0f5bef16287bf",
+          "sha256": "81b37c763da369f82bd00358a55a12790354e6a934d8d5f7a2b869df37e3a148",
           "bytes": 65128461
         }
       },
@@ -78,7 +78,7 @@
           "zip": {
             "file": "animatica-hero-v004-source.zip",
             "tag": "animatica-hero-v004",
-            "sha256": "14750ef83101cc0707775480d23a431d36b31ccb3fd9bbdd5fc4ec111b6607d9",
+            "sha256": "19bbd19eb275e42afde00b6547dadb340de2ce0689c73963370bd93124bb0021",
             "bytes": 29977597
           },
           "files": [
@@ -421,7 +421,7 @@
           "zip": {
             "file": "animatica-hero-v004-blender.zip",
             "tag": "animatica-hero-v004",
-            "sha256": "484a399c2ec9e4ec3a20e9a94cd09189fe0ad1ec6555c2f0e827e6a098df76df",
+            "sha256": "579f4fc013ce80b70b98ecfaf2dccb969903ecfbfe6b658d659325a8ae894ab9",
             "bytes": 18555813
           },
           "files": [
@@ -540,7 +540,7 @@
           "zip": {
             "file": "animatica-hero-v004-maya.zip",
             "tag": "animatica-hero-v004",
-            "sha256": "4498f5cf72e6482b1b627400d1eb505fe0b092b56d167699232bb02e09571e69",
+            "sha256": "b92677bbc3db48b471ea0077b2a02164ea0dd6d7c7aa65be1c128c06f02659f8",
             "bytes": 18967128
           },
           "files": [
@@ -605,7 +605,7 @@
           "zip": {
             "file": "animatica-hero-v004-mobu.zip",
             "tag": "animatica-hero-v004",
-            "sha256": "337c3f742b0bc1b78ba32810fa3ccc8a2c8d57d9495df713da9c0cb4f9bf1b47",
+            "sha256": "8088af16443c5280d5c1f0b177359080dda21c8f10fa1f67ac8802fa15e6f1fe",
             "bytes": 18465969
           },
           "files": [
@@ -1137,7 +1137,7 @@
           "zip": {
             "file": "animatica-hero-v004-max.zip",
             "tag": "animatica-hero-v004",
-            "sha256": "7a353ca7d361e589859fed1ebb9f8b06659cbfb784c916f8c8476f185bd4375c",
+            "sha256": "0f44495d01c3d0d48cdf9b63cc8578a465c03378459f2051c135dd9b576d8d60",
             "bytes": 17735050
           },
           "files": [
@@ -1358,7 +1358,7 @@
           "zip": {
             "file": "animatica-hero-v004-unreal.zip",
             "tag": "animatica-hero-v004",
-            "sha256": "b6120aa544c63c49b68f43756a65bf8f94c12ad0d087780befc9cee440e71797",
+            "sha256": "374a989d75cd9a0cc8c8a2e8a8b024853a33ca1175c5224f416b17d65f593c8b",
             "bytes": 12630486
           },
           "files": [
@@ -1461,7 +1461,7 @@
         "tag": "cesium-man-v003",
         "zip": {
           "file": "cesium-man-v003.zip",
-          "sha256": "8f1f7727431983a775cd021597326200b4dfdb7b3f87519dbeac2c4608265589",
+          "sha256": "ef5a5816aa36ad572cf8583831190087134f2336eafc17fd7aada8600c7fad9e",
           "bytes": 4753124
         }
       },
@@ -1485,7 +1485,7 @@
           "zip": {
             "file": "cesium-man-v003-source.zip",
             "tag": "cesium-man-v003",
-            "sha256": "382b4a1503fdf8f470f73ed4860a970ee193942def328a7a465e66fd7dab0dea",
+            "sha256": "58cf1a78588fa05f04ab423712637d22d9fdcf5e558f577dbebf56fafbf9dfe3",
             "bytes": 1301685
           },
           "files": [
@@ -1803,7 +1803,7 @@
           "zip": {
             "file": "cesium-man-v003-blender.zip",
             "tag": "cesium-man-v003",
-            "sha256": "9980eaa1e8925c8392ff26f484509a50e90f9073508c8ab54e3e474c1066d1c2",
+            "sha256": "1b8ad1d5ea4cbf78c61fd28a7c035b31354e8006e524ec72b0aea34c7c29436b",
             "bytes": 1264640
           },
           "files": [
@@ -1976,7 +1976,7 @@
           "zip": {
             "file": "cesium-man-v003-maya.zip",
             "tag": "cesium-man-v003",
-            "sha256": "eeac104d865567b97a252ffc6d8768aeb19173b73731081fd59727c8f9265442",
+            "sha256": "68ad6811eed5a021745589bdee2f2b41b0114243ce857000149eee7b05394a7b",
             "bytes": 1016070
           },
           "files": [
@@ -2034,7 +2034,7 @@
           "zip": {
             "file": "cesium-man-v003-mobu.zip",
             "tag": "cesium-man-v003",
-            "sha256": "6ec2ce2d213eae7604324d54ea9fb1c43b8ae3433bb86d49636ad9335451d01a",
+            "sha256": "668d8d0eec1ac59da6c17d057304cb6bd1f7de62366c1d94d5c08dd264c616c0",
             "bytes": 767603
           },
           "files": [
@@ -2261,7 +2261,7 @@
           "zip": {
             "file": "cesium-man-v003-max.zip",
             "tag": "cesium-man-v003",
-            "sha256": "6022e8ce089d167b500e5a473c229d39ca81c59ab991d64b6c0395c78dedab2d",
+            "sha256": "60c3cef9795adf2c3a7ea0660e04e404b703462b164e16f749fa89e838763c22",
             "bytes": 761689
           },
           "files": [
@@ -2604,7 +2604,7 @@
           "zip": {
             "file": "cesium-man-v003-unreal.zip",
             "tag": "cesium-man-v003",
-            "sha256": "b63e8f99f48b49f345f231e30246cf7be4d83e8670ff19b3132caed5dbd79391",
+            "sha256": "35b1d84ea07944af3a45f935c6f1a6fe7424a9c945fe1a960b0577471a0a1031",
             "bytes": 969734
           },
           "files": [
