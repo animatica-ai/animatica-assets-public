@@ -1,0 +1,1950 @@
+{
+  "skeleton": "soma77",
+  "namespace": "animatica",
+  "jointMap": {
+    "Hips": "animatica:Hips",
+    "Spine1": "animatica:Spine1",
+    "Spine2": "animatica:Spine2",
+    "Chest": "animatica:Chest",
+    "Neck1": "animatica:Neck1",
+    "Neck2": "animatica:Neck2",
+    "Head": "animatica:Head",
+    "HeadEnd": "animatica:HeadEnd",
+    "Jaw": "animatica:Jaw",
+    "LeftEye": "animatica:LeftEye",
+    "RightEye": "animatica:RightEye",
+    "LeftShoulder": "animatica:LeftShoulder",
+    "LeftArm": "animatica:LeftArm",
+    "LeftForeArm": "animatica:LeftForeArm",
+    "LeftHand": "animatica:LeftHand",
+    "LeftHandThumb1": "animatica:LeftHandThumb1",
+    "LeftHandThumb2": "animatica:LeftHandThumb2",
+    "LeftHandThumb3": "animatica:LeftHandThumb3",
+    "LeftHandThumbEnd": "animatica:LeftHandThumbEnd",
+    "LeftHandIndex1": "animatica:LeftHandIndex1",
+    "LeftHandIndex2": "animatica:LeftHandIndex2",
+    "LeftHandIndex3": "animatica:LeftHandIndex3",
+    "LeftHandIndex4": "animatica:LeftHandIndex4",
+    "LeftHandIndexEnd": "animatica:LeftHandIndexEnd",
+    "LeftHandMiddle1": "animatica:LeftHandMiddle1",
+    "LeftHandMiddle2": "animatica:LeftHandMiddle2",
+    "LeftHandMiddle3": "animatica:LeftHandMiddle3",
+    "LeftHandMiddle4": "animatica:LeftHandMiddle4",
+    "LeftHandMiddleEnd": "animatica:LeftHandMiddleEnd",
+    "LeftHandRing1": "animatica:LeftHandRing1",
+    "LeftHandRing2": "animatica:LeftHandRing2",
+    "LeftHandRing3": "animatica:LeftHandRing3",
+    "LeftHandRing4": "animatica:LeftHandRing4",
+    "LeftHandRingEnd": "animatica:LeftHandRingEnd",
+    "LeftHandPinky1": "animatica:LeftHandPinky1",
+    "LeftHandPinky2": "animatica:LeftHandPinky2",
+    "LeftHandPinky3": "animatica:LeftHandPinky3",
+    "LeftHandPinky4": "animatica:LeftHandPinky4",
+    "LeftHandPinkyEnd": "animatica:LeftHandPinkyEnd",
+    "RightShoulder": "animatica:RightShoulder",
+    "RightArm": "animatica:RightArm",
+    "RightForeArm": "animatica:RightForeArm",
+    "RightHand": "animatica:RightHand",
+    "RightHandThumb1": "animatica:RightHandThumb1",
+    "RightHandThumb2": "animatica:RightHandThumb2",
+    "RightHandThumb3": "animatica:RightHandThumb3",
+    "RightHandThumbEnd": "animatica:RightHandThumbEnd",
+    "RightHandIndex1": "animatica:RightHandIndex1",
+    "RightHandIndex2": "animatica:RightHandIndex2",
+    "RightHandIndex3": "animatica:RightHandIndex3",
+    "RightHandIndex4": "animatica:RightHandIndex4",
+    "RightHandIndexEnd": "animatica:RightHandIndexEnd",
+    "RightHandMiddle1": "animatica:RightHandMiddle1",
+    "RightHandMiddle2": "animatica:RightHandMiddle2",
+    "RightHandMiddle3": "animatica:RightHandMiddle3",
+    "RightHandMiddle4": "animatica:RightHandMiddle4",
+    "RightHandMiddleEnd": "animatica:RightHandMiddleEnd",
+    "RightHandRing1": "animatica:RightHandRing1",
+    "RightHandRing2": "animatica:RightHandRing2",
+    "RightHandRing3": "animatica:RightHandRing3",
+    "RightHandRing4": "animatica:RightHandRing4",
+    "RightHandRingEnd": "animatica:RightHandRingEnd",
+    "RightHandPinky1": "animatica:RightHandPinky1",
+    "RightHandPinky2": "animatica:RightHandPinky2",
+    "RightHandPinky3": "animatica:RightHandPinky3",
+    "RightHandPinky4": "animatica:RightHandPinky4",
+    "RightHandPinkyEnd": "animatica:RightHandPinkyEnd",
+    "LeftLeg": "animatica:LeftLeg",
+    "LeftShin": "animatica:LeftShin",
+    "LeftFoot": "animatica:LeftFoot",
+    "LeftToeBase": "animatica:LeftToeBase",
+    "LeftToeEnd": "animatica:LeftToeEnd",
+    "RightLeg": "animatica:RightLeg",
+    "RightShin": "animatica:RightShin",
+    "RightFoot": "animatica:RightFoot",
+    "RightToeBase": "animatica:RightToeBase",
+    "RightToeEnd": "animatica:RightToeEnd"
+  },
+  "controls": {
+    "blender": "rigify",
+    "maya": "hik",
+    "mobu": "hik-definition",
+    "max": "script",
+    "unreal": "ikrig"
+  },
+  "bones": [
+    {
+      "name": "animatica:Hips",
+      "parent": null,
+      "rest_world_m": [
+        2.3283053002948195e-12,
+        0.9999993443489075,
+        -8.026621856060956e-08
+      ]
+    },
+    {
+      "name": "animatica:Spine1",
+      "parent": "animatica:Hips",
+      "rest_world_m": [
+        -0.00013699194823857397,
+        1.0500373840332031,
+        -0.0005369522259570658
+      ]
+    },
+    {
+      "name": "animatica:Spine2",
+      "parent": "animatica:Spine1",
+      "rest_world_m": [
+        -0.00013699189003091305,
+        1.1212903261184692,
+        -0.0008359570638276637
+      ]
+    },
+    {
+      "name": "animatica:Chest",
+      "parent": "animatica:Spine2",
+      "rest_world_m": [
+        -0.00013699183182325214,
+        1.196790337562561,
+        -0.008994955569505692
+      ]
+    },
+    {
+      "name": "animatica:Neck1",
+      "parent": "animatica:Chest",
+      "rest_world_m": [
+        -0.001953975996002555,
+        1.4599034786224365,
+        -0.014528918080031872
+      ]
+    },
+    {
+      "name": "animatica:Neck2",
+      "parent": "animatica:Neck1",
+      "rest_world_m": [
+        -0.0019539818167686462,
+        1.5369974374771118,
+        0.008496996015310287
+      ]
+    },
+    {
+      "name": "animatica:Head",
+      "parent": "animatica:Neck2",
+      "rest_world_m": [
+        -0.0019539878703653812,
+        1.598286509513855,
+        0.028033949434757233
+      ]
+    },
+    {
+      "name": "animatica:HeadEnd",
+      "parent": "animatica:Head",
+      "rest_world_m": [
+        -0.0019179878290742636,
+        1.758940577507019,
+        0.009680185467004776
+      ]
+    },
+    {
+      "name": "animatica:Jaw",
+      "parent": "animatica:Head",
+      "rest_world_m": [
+        -0.0019279879052191973,
+        1.6030426025390625,
+        0.05898395925760269
+      ]
+    },
+    {
+      "name": "animatica:LeftEye",
+      "parent": "animatica:Head",
+      "rest_world_m": [
+        0.030110010877251625,
+        1.6520884037017822,
+        0.10390303283929825
+      ]
+    },
+    {
+      "name": "animatica:RightEye",
+      "parent": "animatica:Head",
+      "rest_world_m": [
+        -0.03417898714542389,
+        1.6519055366516113,
+        0.10361702740192413
+      ]
+    },
+    {
+      "name": "animatica:LeftShoulder",
+      "parent": "animatica:Chest",
+      "rest_world_m": [
+        0.016079004853963852,
+        1.429162621498108,
+        0.04213901236653328
+      ]
+    },
+    {
+      "name": "animatica:LeftArm",
+      "parent": "animatica:LeftShoulder",
+      "rest_world_m": [
+        0.165277898311615,
+        1.429162621498108,
+        -0.012883913703262806
+      ]
+    },
+    {
+      "name": "animatica:LeftForeArm",
+      "parent": "animatica:LeftArm",
+      "rest_world_m": [
+        0.4526703655719757,
+        1.4289079904556274,
+        -0.012693392112851143
+      ]
+    },
+    {
+      "name": "animatica:LeftHand",
+      "parent": "animatica:LeftForeArm",
+      "rest_world_m": [
+        0.7236100435256958,
+        1.428673505783081,
+        -0.012472537346184254
+      ]
+    },
+    {
+      "name": "animatica:LeftHandThumb1",
+      "parent": "animatica:LeftHand",
+      "rest_world_m": [
+        0.7463388442993164,
+        1.414599061012268,
+        0.0193992517888546
+      ]
+    },
+    {
+      "name": "animatica:LeftHandThumb2",
+      "parent": "animatica:LeftHandThumb1",
+      "rest_world_m": [
+        0.7864403128623962,
+        1.3962152004241943,
+        0.03576838597655296
+      ]
+    },
+    {
+      "name": "animatica:LeftHandThumb3",
+      "parent": "animatica:LeftHandThumb2",
+      "rest_world_m": [
+        0.8144254088401794,
+        1.3961907625198364,
+        0.03578849881887436
+      ]
+    },
+    {
+      "name": "animatica:LeftHandThumbEnd",
+      "parent": "animatica:LeftHandThumb3",
+      "rest_world_m": [
+        0.8462331891059875,
+        1.3961633443832397,
+        0.03581135347485542
+      ]
+    },
+    {
+      "name": "animatica:LeftHandIndex1",
+      "parent": "animatica:LeftHand",
+      "rest_world_m": [
+        0.75606369972229,
+        1.4232289791107178,
+        0.01049030851572752
+      ]
+    },
+    {
+      "name": "animatica:LeftHandIndex2",
+      "parent": "animatica:LeftHandIndex1",
+      "rest_world_m": [
+        0.8197087049484253,
+        1.4232876300811768,
+        0.012322540394961834
+      ]
+    },
+    {
+      "name": "animatica:LeftHandIndex3",
+      "parent": "animatica:LeftHandIndex2",
+      "rest_world_m": [
+        0.856332540512085,
+        1.4232559204101562,
+        0.012348861433565617
+      ]
+    },
+    {
+      "name": "animatica:LeftHandIndex4",
+      "parent": "animatica:LeftHandIndex3",
+      "rest_world_m": [
+        0.879624605178833,
+        1.4232357740402222,
+        0.012365598231554031
+      ]
+    },
+    {
+      "name": "animatica:LeftHandIndexEnd",
+      "parent": "animatica:LeftHandIndex4",
+      "rest_world_m": [
+        0.9072198867797852,
+        1.4214109182357788,
+        0.011246881447732449
+      ]
+    },
+    {
+      "name": "animatica:LeftHandMiddle1",
+      "parent": "animatica:LeftHand",
+      "rest_world_m": [
+        0.7552397847175598,
+        1.431014060974121,
+        -0.002436797134578228
+      ]
+    },
+    {
+      "name": "animatica:LeftHandMiddle2",
+      "parent": "animatica:LeftHandMiddle1",
+      "rest_world_m": [
+        0.8171519041061401,
+        1.4284095764160156,
+        -0.012428052723407745
+      ]
+    },
+    {
+      "name": "animatica:LeftHandMiddle3",
+      "parent": "animatica:LeftHandMiddle2",
+      "rest_world_m": [
+        0.8607178330421448,
+        1.4283719062805176,
+        -0.012396745383739471
+      ]
+    },
+    {
+      "name": "animatica:LeftHandMiddle4",
+      "parent": "animatica:LeftHandMiddle3",
+      "rest_world_m": [
+        0.8906859159469604,
+        1.4283459186553955,
+        -0.01237520668655634
+      ]
+    },
+    {
+      "name": "animatica:LeftHandMiddleEnd",
+      "parent": "animatica:LeftHandMiddle4",
+      "rest_world_m": [
+        0.9137263894081116,
+        1.4253811836242676,
+        -0.012688972055912018
+      ]
+    },
+    {
+      "name": "animatica:LeftHandRing1",
+      "parent": "animatica:LeftHand",
+      "rest_world_m": [
+        0.7524377107620239,
+        1.428125023841858,
+        -0.01568005420267582
+      ]
+    },
+    {
+      "name": "animatica:LeftHandRing2",
+      "parent": "animatica:LeftHandRing1",
+      "rest_world_m": [
+        0.8109886646270752,
+        1.4232697486877441,
+        -0.029396193102002144
+      ]
+    },
+    {
+      "name": "animatica:LeftHandRing3",
+      "parent": "animatica:LeftHandRing2",
+      "rest_world_m": [
+        0.8544945120811462,
+        1.423232078552246,
+        -0.029364928603172302
+      ]
+    },
+    {
+      "name": "animatica:LeftHandRing4",
+      "parent": "animatica:LeftHandRing3",
+      "rest_world_m": [
+        0.8810074925422668,
+        1.423209547996521,
+        -0.02934587001800537
+      ]
+    },
+    {
+      "name": "animatica:LeftHandRingEnd",
+      "parent": "animatica:LeftHandRing4",
+      "rest_world_m": [
+        0.9003692269325256,
+        1.4239695072174072,
+        -0.029329698532819748
+      ]
+    },
+    {
+      "name": "animatica:LeftHandPinky1",
+      "parent": "animatica:LeftHand",
+      "rest_world_m": [
+        0.7522737979888916,
+        1.4256155490875244,
+        -0.028468769043684006
+      ]
+    },
+    {
+      "name": "animatica:LeftHandPinky2",
+      "parent": "animatica:LeftHandPinky1",
+      "rest_world_m": [
+        0.8031533360481262,
+        1.4123339653015137,
+        -0.04619975760579109
+      ]
+    },
+    {
+      "name": "animatica:LeftHandPinky3",
+      "parent": "animatica:LeftHandPinky2",
+      "rest_world_m": [
+        0.8338631391525269,
+        1.4123082160949707,
+        -0.04617767408490181
+      ]
+    },
+    {
+      "name": "animatica:LeftHandPinky4",
+      "parent": "animatica:LeftHandPinky3",
+      "rest_world_m": [
+        0.8493601083755493,
+        1.4122949838638306,
+        -0.046166542917490005
+      ]
+    },
+    {
+      "name": "animatica:LeftHandPinkyEnd",
+      "parent": "animatica:LeftHandPinky4",
+      "rest_world_m": [
+        0.8688063621520996,
+        1.4106966257095337,
+        -0.04558715969324112
+      ]
+    },
+    {
+      "name": "animatica:RightShoulder",
+      "parent": "animatica:Chest",
+      "rest_world_m": [
+        -0.013937989249825478,
+        1.428593397140503,
+        0.04314601421356201
+      ]
+    },
+    {
+      "name": "animatica:RightArm",
+      "parent": "animatica:RightShoulder",
+      "rest_world_m": [
+        -0.16430985927581787,
+        1.428593397140503,
+        -0.012309916317462921
+      ]
+    },
+    {
+      "name": "animatica:RightForeArm",
+      "parent": "animatica:RightArm",
+      "rest_world_m": [
+        -0.45167654752731323,
+        1.4285945892333984,
+        -0.012337364256381989
+      ]
+    },
+    {
+      "name": "animatica:RightHand",
+      "parent": "animatica:RightForeArm",
+      "rest_world_m": [
+        -0.7230124473571777,
+        1.4286010265350342,
+        -0.012322144582867622
+      ]
+    },
+    {
+      "name": "animatica:RightHandThumb1",
+      "parent": "animatica:RightHand",
+      "rest_world_m": [
+        -0.7457541227340698,
+        1.4147621393203735,
+        0.019308781251311302
+      ]
+    },
+    {
+      "name": "animatica:RightHandThumb2",
+      "parent": "animatica:RightHandThumb1",
+      "rest_world_m": [
+        -0.7858701348304749,
+        1.3964879512786865,
+        0.03571595624089241
+      ]
+    },
+    {
+      "name": "animatica:RightHandThumb3",
+      "parent": "animatica:RightHandThumb2",
+      "rest_world_m": [
+        -0.813819169998169,
+        1.3964886665344238,
+        0.03571484237909317
+      ]
+    },
+    {
+      "name": "animatica:RightHandThumbEnd",
+      "parent": "animatica:RightHandThumb3",
+      "rest_world_m": [
+        -0.8456571698188782,
+        1.3964892625808716,
+        0.035713572055101395
+      ]
+    },
+    {
+      "name": "animatica:RightHandIndex1",
+      "parent": "animatica:RightHand",
+      "rest_world_m": [
+        -0.7555466294288635,
+        1.4234014749526978,
+        0.010505486279726028
+      ]
+    },
+    {
+      "name": "animatica:RightHandIndex2",
+      "parent": "animatica:RightHandIndex1",
+      "rest_world_m": [
+        -0.8189654350280762,
+        1.4235278367996216,
+        0.012285972014069557
+      ]
+    },
+    {
+      "name": "animatica:RightHandIndex3",
+      "parent": "animatica:RightHandIndex2",
+      "rest_world_m": [
+        -0.855514407157898,
+        1.4235289096832275,
+        0.012284516356885433
+      ]
+    },
+    {
+      "name": "animatica:RightHandIndex4",
+      "parent": "animatica:RightHandIndex3",
+      "rest_world_m": [
+        -0.8787894248962402,
+        1.4235292673110962,
+        0.01228358969092369
+      ]
+    },
+    {
+      "name": "animatica:RightHandIndexEnd",
+      "parent": "animatica:RightHandIndex4",
+      "rest_world_m": [
+        -0.9064074754714966,
+        1.4217231273651123,
+        0.011151466518640518
+      ]
+    },
+    {
+      "name": "animatica:RightHandMiddle1",
+      "parent": "animatica:RightHand",
+      "rest_world_m": [
+        -0.7546938061714172,
+        1.4310675859451294,
+        -0.0023123938590288162
+      ]
+    },
+    {
+      "name": "animatica:RightHandMiddle2",
+      "parent": "animatica:RightHandMiddle1",
+      "rest_world_m": [
+        -0.8165014386177063,
+        1.428481101989746,
+        -0.012323885224759579
+      ]
+    },
+    {
+      "name": "animatica:RightHandMiddle3",
+      "parent": "animatica:RightHandMiddle2",
+      "rest_world_m": [
+        -0.8599905371665955,
+        1.428482174873352,
+        -0.012325617484748363
+      ]
+    },
+    {
+      "name": "animatica:RightHandMiddle4",
+      "parent": "animatica:RightHandMiddle3",
+      "rest_world_m": [
+        -0.8899934887886047,
+        1.4284828901290894,
+        -0.012326812371611595
+      ]
+    },
+    {
+      "name": "animatica:RightHandMiddleEnd",
+      "parent": "animatica:RightHandMiddle4",
+      "rest_world_m": [
+        -0.9130186438560486,
+        1.425539493560791,
+        -0.012644764967262745
+      ]
+    },
+    {
+      "name": "animatica:RightHandRing1",
+      "parent": "animatica:RightHand",
+      "rest_world_m": [
+        -0.7518694400787354,
+        1.4279228448867798,
+        -0.015411297790706158
+      ]
+    },
+    {
+      "name": "animatica:RightHandRing2",
+      "parent": "animatica:RightHandRing1",
+      "rest_world_m": [
+        -0.8104109168052673,
+        1.4230632781982422,
+        -0.029150675982236862
+      ]
+    },
+    {
+      "name": "animatica:RightHandRing3",
+      "parent": "animatica:RightHandRing2",
+      "rest_world_m": [
+        -0.8537989854812622,
+        1.4230643510818481,
+        -0.02915240451693535
+      ]
+    },
+    {
+      "name": "animatica:RightHandRing4",
+      "parent": "animatica:RightHandRing3",
+      "rest_world_m": [
+        -0.8803479671478271,
+        1.423064947128296,
+        -0.029153460636734962
+      ]
+    },
+    {
+      "name": "animatica:RightHandRingEnd",
+      "parent": "animatica:RightHandRing4",
+      "rest_world_m": [
+        -0.899683952331543,
+        1.4238404035568237,
+        -0.02915521338582039
+      ]
+    },
+    {
+      "name": "animatica:RightHandPinky1",
+      "parent": "animatica:RightHand",
+      "rest_world_m": [
+        -0.7516760230064392,
+        1.4251748323440552,
+        -0.02816431038081646
+      ]
+    },
+    {
+      "name": "animatica:RightHandPinky2",
+      "parent": "animatica:RightHandPinky1",
+      "rest_world_m": [
+        -0.8025895357131958,
+        1.4118553400039673,
+        -0.04589049145579338
+      ]
+    },
+    {
+      "name": "animatica:RightHandPinky3",
+      "parent": "animatica:RightHandPinky2",
+      "rest_world_m": [
+        -0.8332165479660034,
+        1.4118561744689941,
+        -0.04589170590043068
+      ]
+    },
+    {
+      "name": "animatica:RightHandPinky4",
+      "parent": "animatica:RightHandPinky3",
+      "rest_world_m": [
+        -0.8486815690994263,
+        1.4118565320968628,
+        -0.04589232802391052
+      ]
+    },
+    {
+      "name": "animatica:RightHandPinkyEnd",
+      "parent": "animatica:RightHandPinky4",
+      "rest_world_m": [
+        -0.8681325316429138,
+        1.4102798700332642,
+        -0.04532110318541527
+      ]
+    },
+    {
+      "name": "animatica:LeftLeg",
+      "parent": "animatica:Hips",
+      "rest_world_m": [
+        0.10043197125196457,
+        0.9156544208526611,
+        0.025956926867365837
+      ]
+    },
+    {
+      "name": "animatica:LeftShin",
+      "parent": "animatica:LeftLeg",
+      "rest_world_m": [
+        0.10043185204267502,
+        0.483437180519104,
+        0.01791893132030964
+      ]
+    },
+    {
+      "name": "animatica:LeftFoot",
+      "parent": "animatica:LeftShin",
+      "rest_world_m": [
+        0.10043198615312576,
+        0.06188580393791199,
+        -0.016887998208403587
+      ]
+    },
+    {
+      "name": "animatica:LeftToeBase",
+      "parent": "animatica:LeftFoot",
+      "rest_world_m": [
+        0.10043198615312576,
+        0.01129187922924757,
+        0.1154269352555275
+      ]
+    },
+    {
+      "name": "animatica:LeftToeEnd",
+      "parent": "animatica:LeftToeBase",
+      "rest_world_m": [
+        0.1003359854221344,
+        -0.005185109097510576,
+        0.18055789172649384
+      ]
+    },
+    {
+      "name": "animatica:RightLeg",
+      "parent": "animatica:Hips",
+      "rest_world_m": [
+        -0.10047297924757004,
+        0.9170461893081665,
+        0.026202894747257233
+      ]
+    },
+    {
+      "name": "animatica:RightShin",
+      "parent": "animatica:RightLeg",
+      "rest_world_m": [
+        -0.1004730761051178,
+        0.4834246337413788,
+        0.018142273649573326
+      ]
+    },
+    {
+      "name": "animatica:RightFoot",
+      "parent": "animatica:RightShin",
+      "rest_world_m": [
+        -0.10047299414873123,
+        0.06225019693374634,
+        -0.016636043787002563
+      ]
+    },
+    {
+      "name": "animatica:RightToeBase",
+      "parent": "animatica:RightFoot",
+      "rest_world_m": [
+        -0.10047297924757004,
+        0.011454246938228607,
+        0.1162058487534523
+      ]
+    },
+    {
+      "name": "animatica:RightToeEnd",
+      "parent": "animatica:RightToeBase",
+      "rest_world_m": [
+        -0.10037698596715927,
+        -0.004888742696493864,
+        0.1808118373155594
+      ]
+    }
+  ],
+  "coverage": 77,
+  "conformant": true,
+  "hipHeight_m": 0.9999993443489075,
+  "stamped": true,
+  "bindPose": {
+    "joints": [
+      {
+        "name": "animatica:Hips",
+        "parent": null,
+        "rest_translation": [
+          2.3283053002948195e-12,
+          0.9999993443489075,
+          -8.026621856060956e-08
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:Spine1",
+        "parent": "animatica:Hips",
+        "rest_translation": [
+          -0.00013699195056687927,
+          0.050038039684295654,
+          -0.0005368719597385052
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:Spine2",
+        "parent": "animatica:Spine1",
+        "rest_translation": [
+          5.820766091346741e-11,
+          0.07125294208526611,
+          -0.00029900483787059784
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:Chest",
+        "parent": "animatica:Spine2",
+        "rest_translation": [
+          5.820766091346741e-11,
+          0.0755000114440918,
+          -0.008158998505678028
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:Neck1",
+        "parent": "animatica:Chest",
+        "rest_translation": [
+          -0.0018169841641793028,
+          0.2631131410598755,
+          -0.00553396251052618
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:Neck2",
+        "parent": "animatica:Neck1",
+        "rest_translation": [
+          -5.820766091346741e-09,
+          0.07709395885467529,
+          0.02302591409534216
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:Head",
+        "parent": "animatica:Neck2",
+        "rest_translation": [
+          -6.05359673500061e-09,
+          0.061289072036743164,
+          0.019536953419446945
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:HeadEnd",
+        "parent": "animatica:Head",
+        "rest_translation": [
+          3.600004129111767e-05,
+          0.16065406799316406,
+          -0.018353763967752457
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:Jaw",
+        "parent": "animatica:Head",
+        "rest_translation": [
+          2.5999965146183968e-05,
+          0.0047560930252075195,
+          0.03095000982284546
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftEye",
+        "parent": "animatica:Head",
+        "rest_translation": [
+          0.032063998747617006,
+          0.053801894187927246,
+          0.07586908340454102
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightEye",
+        "parent": "animatica:Head",
+        "rest_translation": [
+          -0.03222499927505851,
+          0.05361902713775635,
+          0.0755830779671669
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftShoulder",
+        "parent": "animatica:Chest",
+        "rest_translation": [
+          0.016215996685787104,
+          0.23237228393554688,
+          0.05113396793603897
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftArm",
+        "parent": "animatica:LeftShoulder",
+        "rest_translation": [
+          0.14919889345765114,
+          0.0,
+          -0.055022926069796085
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftForeArm",
+        "parent": "animatica:LeftArm",
+        "rest_translation": [
+          0.2873924672603607,
+          -0.00025463104248046875,
+          0.00019052159041166306
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHand",
+        "parent": "animatica:LeftForeArm",
+        "rest_translation": [
+          0.2709396779537201,
+          -0.00023448467254638672,
+          0.0002208547666668892
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandThumb1",
+        "parent": "animatica:LeftHand",
+        "rest_translation": [
+          0.022728800773620605,
+          -0.014074444770812988,
+          0.03187178913503885
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandThumb2",
+        "parent": "animatica:LeftHandThumb1",
+        "rest_translation": [
+          0.040101468563079834,
+          -0.01838386058807373,
+          0.016369134187698364
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandThumb3",
+        "parent": "animatica:LeftHandThumb2",
+        "rest_translation": [
+          0.027985095977783203,
+          -2.4437904357910156e-05,
+          2.0112842321395874e-05
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandThumbEnd",
+        "parent": "animatica:LeftHandThumb3",
+        "rest_translation": [
+          0.031807780265808105,
+          -2.7418136596679688e-05,
+          2.2854655981063843e-05
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandIndex1",
+        "parent": "animatica:LeftHand",
+        "rest_translation": [
+          0.03245365619659424,
+          -0.005444526672363281,
+          0.022962845861911774
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandIndex2",
+        "parent": "animatica:LeftHandIndex1",
+        "rest_translation": [
+          0.06364500522613525,
+          5.8650970458984375e-05,
+          0.001832231879234314
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandIndex3",
+        "parent": "animatica:LeftHandIndex2",
+        "rest_translation": [
+          0.03662383556365967,
+          -3.170967102050781e-05,
+          2.6321038603782654e-05
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandIndex4",
+        "parent": "animatica:LeftHandIndex3",
+        "rest_translation": [
+          0.023292064666748047,
+          -2.014636993408203e-05,
+          1.6736797988414764e-05
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandIndexEnd",
+        "parent": "animatica:LeftHandIndex4",
+        "rest_translation": [
+          0.02759528160095215,
+          -0.0018248558044433594,
+          -0.0011187167838215828
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandMiddle1",
+        "parent": "animatica:LeftHand",
+        "rest_translation": [
+          0.031629741191864014,
+          0.002340555191040039,
+          0.010035740211606026
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandMiddle2",
+        "parent": "animatica:LeftHandMiddle1",
+        "rest_translation": [
+          0.06191211938858032,
+          -0.0026044845581054688,
+          -0.009991255588829517
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandMiddle3",
+        "parent": "animatica:LeftHandMiddle2",
+        "rest_translation": [
+          0.04356592893600464,
+          -3.7670135498046875e-05,
+          3.1307339668273926e-05
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandMiddle4",
+        "parent": "animatica:LeftHandMiddle3",
+        "rest_translation": [
+          0.029968082904815674,
+          -2.5987625122070312e-05,
+          2.153869718313217e-05
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandMiddleEnd",
+        "parent": "animatica:LeftHandMiddle4",
+        "rest_translation": [
+          0.023040473461151123,
+          -0.0029647350311279297,
+          -0.00031376536935567856
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandRing1",
+        "parent": "animatica:LeftHand",
+        "rest_translation": [
+          0.028827667236328125,
+          -0.0005484819412231445,
+          -0.0032075168564915657
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandRing2",
+        "parent": "animatica:LeftHandRing1",
+        "rest_translation": [
+          0.05855095386505127,
+          -0.0048552751541137695,
+          -0.013716138899326324
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandRing3",
+        "parent": "animatica:LeftHandRing2",
+        "rest_translation": [
+          0.043505847454071045,
+          -3.7670135498046875e-05,
+          3.1264498829841614e-05
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandRing4",
+        "parent": "animatica:LeftHandRing3",
+        "rest_translation": [
+          0.026512980461120605,
+          -2.2530555725097656e-05,
+          1.9058585166931152e-05
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandRingEnd",
+        "parent": "animatica:LeftHandRing4",
+        "rest_translation": [
+          0.01936173439025879,
+          0.0007599592208862305,
+          1.617148518562317e-05
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandPinky1",
+        "parent": "animatica:LeftHand",
+        "rest_translation": [
+          0.0286637544631958,
+          -0.0030579566955566406,
+          -0.015996231697499752
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandPinky2",
+        "parent": "animatica:LeftHandPinky1",
+        "rest_translation": [
+          0.05087953805923462,
+          -0.013281583786010742,
+          -0.017730988562107086
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandPinky3",
+        "parent": "animatica:LeftHandPinky2",
+        "rest_translation": [
+          0.030709803104400635,
+          -2.574920654296875e-05,
+          2.2083520889282227e-05
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandPinky4",
+        "parent": "animatica:LeftHandPinky3",
+        "rest_translation": [
+          0.015496969223022461,
+          -1.3232231140136719e-05,
+          1.11311674118042e-05
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftHandPinkyEnd",
+        "parent": "animatica:LeftHandPinky4",
+        "rest_translation": [
+          0.019446253776550293,
+          -0.001598358154296875,
+          0.0005793832242488861
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightShoulder",
+        "parent": "animatica:Chest",
+        "rest_translation": [
+          -0.013800997418002225,
+          0.2318030595779419,
+          0.0521409697830677
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightArm",
+        "parent": "animatica:RightShoulder",
+        "rest_translation": [
+          -0.1503718700259924,
+          0.0,
+          -0.05545593053102493
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightForeArm",
+        "parent": "animatica:RightArm",
+        "rest_translation": [
+          -0.28736668825149536,
+          1.1920928955078125e-06,
+          -2.7447938919067383e-05
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHand",
+        "parent": "animatica:RightForeArm",
+        "rest_translation": [
+          -0.2713358998298645,
+          6.4373016357421875e-06,
+          1.521967351436615e-05
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandThumb1",
+        "parent": "animatica:RightHand",
+        "rest_translation": [
+          -0.02274167537689209,
+          -0.013838887214660645,
+          0.031630925834178925
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandThumb2",
+        "parent": "animatica:RightHandThumb1",
+        "rest_translation": [
+          -0.04011601209640503,
+          -0.01827418804168701,
+          0.016407174989581108
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandThumb3",
+        "parent": "animatica:RightHandThumb2",
+        "rest_translation": [
+          -0.027949035167694092,
+          7.152557373046875e-07,
+          -1.1138617992401123e-06
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandThumbEnd",
+        "parent": "animatica:RightHandThumb3",
+        "rest_translation": [
+          -0.03183799982070923,
+          5.960464477539062e-07,
+          -1.2703239917755127e-06
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandIndex1",
+        "parent": "animatica:RightHand",
+        "rest_translation": [
+          -0.03253418207168579,
+          -0.005199551582336426,
+          0.02282763086259365
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandIndex2",
+        "parent": "animatica:RightHandIndex1",
+        "rest_translation": [
+          -0.06341880559921265,
+          0.00012636184692382812,
+          0.0017804857343435287
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandIndex3",
+        "parent": "animatica:RightHandIndex2",
+        "rest_translation": [
+          -0.03654897212982178,
+          1.0728836059570312e-06,
+          -1.455657184123993e-06
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandIndex4",
+        "parent": "animatica:RightHandIndex3",
+        "rest_translation": [
+          -0.023275017738342285,
+          3.5762786865234375e-07,
+          -9.266659617424011e-07
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandIndexEnd",
+        "parent": "animatica:RightHandIndex4",
+        "rest_translation": [
+          -0.027618050575256348,
+          -0.0018061399459838867,
+          -0.0011321231722831726
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandMiddle1",
+        "parent": "animatica:RightHand",
+        "rest_translation": [
+          -0.0316813588142395,
+          0.002466559410095215,
+          0.010009750723838806
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandMiddle2",
+        "parent": "animatica:RightHandMiddle1",
+        "rest_translation": [
+          -0.06180763244628906,
+          -0.0025864839553833008,
+          -0.010011491365730762
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandMiddle3",
+        "parent": "animatica:RightHandMiddle2",
+        "rest_translation": [
+          -0.04348909854888916,
+          1.0728836059570312e-06,
+          -1.73225998878479e-06
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandMiddle4",
+        "parent": "animatica:RightHandMiddle3",
+        "rest_translation": [
+          -0.030002951622009277,
+          7.152557373046875e-07,
+          -1.194886863231659e-06
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandMiddleEnd",
+        "parent": "animatica:RightHandMiddle4",
+        "rest_translation": [
+          -0.023025155067443848,
+          -0.00294339656829834,
+          -0.00031795259565114975
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandRing1",
+        "parent": "animatica:RightHand",
+        "rest_translation": [
+          -0.028856992721557617,
+          -0.0006781816482543945,
+          -0.0030891532078385353
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandRing2",
+        "parent": "animatica:RightHandRing1",
+        "rest_translation": [
+          -0.05854147672653198,
+          -0.004859566688537598,
+          -0.013739378191530704
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandRing3",
+        "parent": "animatica:RightHandRing2",
+        "rest_translation": [
+          -0.04338806867599487,
+          1.0728836059570312e-06,
+          -1.7285346984863281e-06
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandRing4",
+        "parent": "animatica:RightHandRing3",
+        "rest_translation": [
+          -0.02654898166656494,
+          5.960464477539062e-07,
+          -1.0561197996139526e-06
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandRingEnd",
+        "parent": "animatica:RightHandRing4",
+        "rest_translation": [
+          -0.01933598518371582,
+          0.000775456428527832,
+          -1.7527490854263306e-06
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandPinky1",
+        "parent": "animatica:RightHand",
+        "rest_translation": [
+          -0.028663575649261475,
+          -0.003426194190979004,
+          -0.015842165797948837
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandPinky2",
+        "parent": "animatica:RightHandPinky1",
+        "rest_translation": [
+          -0.05091351270675659,
+          -0.01331949234008789,
+          -0.01772618107497692
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandPinky3",
+        "parent": "animatica:RightHandPinky2",
+        "rest_translation": [
+          -0.030627012252807617,
+          8.344650268554688e-07,
+          -1.214444637298584e-06
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandPinky4",
+        "parent": "animatica:RightHandPinky3",
+        "rest_translation": [
+          -0.015465021133422852,
+          3.5762786865234375e-07,
+          -6.221234798431396e-07
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightHandPinkyEnd",
+        "parent": "animatica:RightHandPinky4",
+        "rest_translation": [
+          -0.01945096254348755,
+          -0.0015766620635986328,
+          0.0005712248384952545
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftLeg",
+        "parent": "animatica:Hips",
+        "rest_translation": [
+          0.10043197124963626,
+          -0.08434492349624634,
+          0.025957007133584398
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftShin",
+        "parent": "animatica:LeftLeg",
+        "rest_translation": [
+          -1.1920928955078125e-07,
+          -0.43221724033355713,
+          -0.008037995547056198
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftFoot",
+        "parent": "animatica:LeftShin",
+        "rest_translation": [
+          1.341104507446289e-07,
+          -0.421551376581192,
+          -0.034806929528713226
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftToeBase",
+        "parent": "animatica:LeftFoot",
+        "rest_translation": [
+          0.0,
+          -0.05059392470866442,
+          0.13231493346393108
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:LeftToeEnd",
+        "parent": "animatica:LeftToeBase",
+        "rest_translation": [
+          -9.600073099136353e-05,
+          -0.016476988326758146,
+          0.06513095647096634
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightLeg",
+        "parent": "animatica:Hips",
+        "rest_translation": [
+          -0.10047297924989834,
+          -0.08295315504074097,
+          0.026202975013475793
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightShin",
+        "parent": "animatica:RightLeg",
+        "rest_translation": [
+          -9.685754776000977e-08,
+          -0.4336215555667877,
+          -0.008060621097683907
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightFoot",
+        "parent": "animatica:RightShin",
+        "rest_translation": [
+          8.195638656616211e-08,
+          -0.42117443680763245,
+          -0.03477831743657589
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightToeBase",
+        "parent": "animatica:RightFoot",
+        "rest_translation": [
+          1.4901161193847656e-08,
+          -0.05079594999551773,
+          0.13284189254045486
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "animatica:RightToeEnd",
+        "parent": "animatica:RightToeBase",
+        "rest_translation": [
+          9.59932804107666e-05,
+          -0.01634298963472247,
+          0.06460598856210709
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "coordinate_system": "right_handed_y_up",
+    "units": "meters"
+  }
+}

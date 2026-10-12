@@ -1,10 +1,17 @@
 {
+  "schemaVersion": 2,
+  "repo": "animatica-ai/animatica-assets-public",
+  "urls": {
+    "raw": "https://raw.githubusercontent.com/{repo}/{ref}/{path}",
+    "media": "https://media.githubusercontent.com/media/{repo}/{ref}/{path}",
+    "release": "https://github.com/{repo}/releases/download/{tag}/{file}"
+  },
   "assets": [
     {
       "name": "animatica-hero",
       "displayName": "Animatica Hero",
-      "version": "v003",
-      "date": "2026-09-08",
+      "version": "v004",
+      "date": "2026-09-30",
       "tags": [
         "character",
         "rigged",
@@ -14,12 +21,14 @@
       "apps": [
         "blender",
         "maya",
+        "mobu",
         "max",
         "unreal"
       ],
       "rigged": {
         "blender": true,
         "maya": true,
+        "mobu": true,
         "max": true,
         "unreal": true
       },
@@ -31,14 +40,1385 @@
       },
       "source": {
         "rigged": true,
-        "bones": 77
+        "bones": 77,
+        "skeleton": {
+          "canonical": "soma77",
+          "coverage": 77,
+          "conformant": true,
+          "stamped": true,
+          "hipHeight_m": 0.9999993443489075,
+          "namespace": "animatica"
+        }
+      },
+      "release": {
+        "tag": "animatica-hero-v004",
+        "zip": {
+          "file": "animatica-hero-v004.zip",
+          "sha256": "e0ad9d75a27b22f01208a560bbdef15224f79583e553ff8a46d0f5bef16287bf",
+          "bytes": 65128461
+        }
+      },
+      "skeleton": {
+        "canonical": "soma77",
+        "coverage": 77,
+        "conformant": true,
+        "namespace": "animatica",
+        "root": "animatica:Hips",
+        "hipHeight_m": 0.9999993443489075,
+        "stamped": true
+      },
+      "variants": {
+        "source": {
+          "entry": "source/animatica-hero.fbx",
+          "usd": "source/animatica-hero.usd",
+          "rig": "source/rig.json",
+          "materials": "source/materials.json",
+          "controls": null,
+          "requires": [],
+          "zip": {
+            "file": "animatica-hero-v004-source.zip",
+            "tag": "animatica-hero-v004",
+            "sha256": "14750ef83101cc0707775480d23a431d36b31ccb3fd9bbdd5fc4ec111b6607d9",
+            "bytes": 29977597
+          },
+          "files": [
+            {
+              "path": "source/animatica-hero.fbx",
+              "bytes": 12630684,
+              "sha256": "513ac270e52c2c2c20fb28861f551210b3b502016ad214b7e1906ca6a046da59",
+              "lfs": true
+            },
+            {
+              "path": "source/animatica-hero.usd",
+              "bytes": 747481,
+              "sha256": "a6e96e538625b48dc718d7fe7222e635acc477439da91e53ee8c1bf9676645ee",
+              "lfs": true
+            },
+            {
+              "path": "source/materials.json",
+              "bytes": 676,
+              "sha256": "838b017499654510cb6018a78ebc1fb646e61cf7fff5038df3bbf02d6b233fb4",
+              "lfs": false
+            },
+            {
+              "path": "source/rig.json",
+              "bytes": 47536,
+              "sha256": "2a41a2dc084793fe130b8e15f0019d9ab365f14e8f01b8cd681d7cd49d7e4a25",
+              "lfs": false
+            },
+            {
+              "path": "source/textures/animatica-hero_body_BaseColor.png",
+              "bytes": 3484761,
+              "sha256": "c77fa631643a50014b4a58bd400a5bd266b95c8a4b20934648e697b521898149",
+              "lfs": true
+            },
+            {
+              "path": "source/textures/animatica-hero_body_Normal.png",
+              "bytes": 5120272,
+              "sha256": "e8a8edfc8f47a61eb416529fc7304595e53340ce7c1f1ff7ff1b982918c42d04",
+              "lfs": true
+            },
+            {
+              "path": "source/textures/animatica-hero_body_NormalDX.png",
+              "bytes": 5120507,
+              "sha256": "64287c91063edc49972009e5f3fdc354fae789613cf1defb3ab83faba9f413a4",
+              "lfs": true
+            },
+            {
+              "path": "source/textures/animatica-hero_body_Roughness.png",
+              "bytes": 3354001,
+              "sha256": "62fa876634b7ac2cd488c54ef593745156c47c7c631c915d695eed544c386c49",
+              "lfs": true
+            }
+          ]
+        },
+        "blender": {
+          "entry": "blender/animatica-hero.blend",
+          "collection": "animatica-hero",
+          "controlsEntry": "blender/animatica-hero_controls.blend",
+          "app": {
+            "name": "Blender",
+            "min": "5.2"
+          },
+          "requires": [
+            "source/textures/",
+            "source/rig.json"
+          ],
+          "controls": "rigify",
+          "controlsReason": null,
+          "controlsInfo": {
+            "controlRig": "animatica_hero_ctrl",
+            "controlSwitch": {
+              "object": "animatica_hero_rig",
+              "property": "animatica_control_rig",
+              "default": 1
+            },
+            "pairs": 61,
+            "unpaired": [
+              "animatica:HeadEnd",
+              "animatica:Jaw",
+              "animatica:LeftEye",
+              "animatica:LeftHandIndexEnd",
+              "animatica:LeftHandMiddleEnd",
+              "animatica:LeftHandPinkyEnd",
+              "animatica:LeftHandRingEnd",
+              "animatica:LeftHandThumbEnd",
+              "animatica:LeftToeEnd",
+              "animatica:RightEye",
+              "animatica:RightHandIndexEnd",
+              "animatica:RightHandMiddleEnd",
+              "animatica:RightHandPinkyEnd",
+              "animatica:RightHandRingEnd",
+              "animatica:RightHandThumbEnd",
+              "animatica:RightToeEnd"
+            ],
+            "controlsCount": 126,
+            "switches": {
+              "stretch": {
+                "bone": "root",
+                "property": "stretch",
+                "default": 0.0,
+                "drives": [
+                  "upper_arm_parent.L",
+                  "upper_arm_parent.R",
+                  "thigh_parent.L",
+                  "thigh_parent.R"
+                ],
+                "reachLimit": {
+                  "LArm": {
+                    "rigify": 0.57787,
+                    "exact": 0.55833
+                  },
+                  "RArm": {
+                    "rigify": 0.57826,
+                    "exact": 0.5587
+                  },
+                  "LLeg": {
+                    "rigify": 0.88521,
+                    "exact": 0.85528
+                  },
+                  "RLeg": {
+                    "rigify": 0.88627,
+                    "exact": 0.8563
+                  }
+                },
+                "ikStretchDriven": [
+                  "MCH-forearm_ik.L",
+                  "upper_arm_ik.L",
+                  "MCH-forearm_ik.R",
+                  "upper_arm_ik.R",
+                  "MCH-shin_ik.L",
+                  "thigh_ik.L",
+                  "MCH-shin_ik.R",
+                  "thigh_ik.R"
+                ]
+              },
+              "ikfk": {
+                "property": "IK_FK",
+                "bones": [
+                  "upper_arm_parent.L",
+                  "upper_arm_parent.R",
+                  "thigh_parent.L",
+                  "thigh_parent.R"
+                ],
+                "default": {
+                  "upper_arm_parent.L": 1.0,
+                  "upper_arm_parent.R": 1.0,
+                  "thigh_parent.L": 0.0,
+                  "thigh_parent.R": 0.0
+                }
+              },
+              "hideInactive": {
+                "bone": "root",
+                "property": "hide_inactive",
+                "default": 1,
+                "collections": [
+                  "Arm.L (IK)",
+                  "Arm.L (FK)",
+                  "Arm.R (IK)",
+                  "Arm.R (FK)",
+                  "Leg.L (IK)",
+                  "Leg.L (FK)",
+                  "Leg.R (IK)",
+                  "Leg.R (FK)"
+                ],
+                "missing": []
+              },
+              "bend": {
+                "LArm": "default(+Y)",
+                "RArm": "default(+Y)",
+                "LLeg": "rest(-Y)",
+                "RLeg": "rest(-Y)"
+              }
+            },
+            "locks": {
+              "bones": 96,
+              "skippedPatterns": []
+            },
+            "colors": {
+              "L": 55,
+              "R": 55,
+              "center": 16
+            },
+            "shapes": {
+              "fingers": 30,
+              "scaled": 9,
+              "hidden": [
+                "Arm.L (Tweak)",
+                "Arm.R (Tweak)",
+                "Leg.L (Tweak)",
+                "Leg.R (Tweak)"
+              ],
+              "wireWidth": 3.0
+            },
+            "picker": {
+              "text": "animatica_picker.py",
+              "panel": "VIEW3D_PT_animatica_picker_afm6ouiq4040cca6",
+              "pickOp": "pose.animatica_pick_afm6ouiq4040cca6",
+              "allOp": "pose.animatica_ikfk_all_afm6ouiq4040cca6",
+              "switchOp": "pose.animatica_control_rig_afm6ouiq4040cca6",
+              "hideOp": "pose.animatica_hide_inactive_afm6ouiq4040cca6",
+              "matchOp": "pose.animatica_ikfk_match_afm6ouiq4040cca6",
+              "snapOps": {
+                "upper_arm_parent.L": {
+                  "ik2fk": {
+                    "op": "pose.rigify_limb_ik2fk_afm6ouiq4040cca6",
+                    "args": [
+                      "ctrl_bones",
+                      "extra_ctrls",
+                      "fk_bones",
+                      "ik_bones",
+                      "prop_bone",
+                      "tail_bones"
+                    ]
+                  },
+                  "fk2ik": {
+                    "op": "pose.rigify_generic_snap_afm6ouiq4040cca6",
+                    "args": [
+                      "ctrl_bones",
+                      "input_bones",
+                      "output_bones"
+                    ]
+                  },
+                  "ik2fkRoll": null
+                },
+                "upper_arm_parent.R": {
+                  "ik2fk": {
+                    "op": "pose.rigify_limb_ik2fk_afm6ouiq4040cca6",
+                    "args": [
+                      "ctrl_bones",
+                      "extra_ctrls",
+                      "fk_bones",
+                      "ik_bones",
+                      "prop_bone",
+                      "tail_bones"
+                    ]
+                  },
+                  "fk2ik": {
+                    "op": "pose.rigify_generic_snap_afm6ouiq4040cca6",
+                    "args": [
+                      "ctrl_bones",
+                      "input_bones",
+                      "output_bones"
+                    ]
+                  },
+                  "ik2fkRoll": null
+                },
+                "thigh_parent.L": {
+                  "ik2fk": {
+                    "op": "pose.rigify_limb_ik2fk_afm6ouiq4040cca6",
+                    "args": [
+                      "ctrl_bones",
+                      "extra_ctrls",
+                      "fk_bones",
+                      "ik_bones",
+                      "prop_bone",
+                      "tail_bones"
+                    ]
+                  },
+                  "fk2ik": {
+                    "op": "pose.rigify_generic_snap_afm6ouiq4040cca6",
+                    "args": [
+                      "ctrl_bones",
+                      "input_bones",
+                      "output_bones"
+                    ]
+                  },
+                  "ik2fkRoll": {
+                    "op": "pose.rigify_leg_roll_ik2fk_afm6ouiq4040cca6",
+                    "args": [
+                      "ctrl_bones",
+                      "extra_ctrls",
+                      "fk_bones",
+                      "heel_control",
+                      "ik_bones",
+                      "prop_bone",
+                      "tail_bones"
+                    ]
+                  }
+                },
+                "thigh_parent.R": {
+                  "ik2fk": {
+                    "op": "pose.rigify_limb_ik2fk_afm6ouiq4040cca6",
+                    "args": [
+                      "ctrl_bones",
+                      "extra_ctrls",
+                      "fk_bones",
+                      "ik_bones",
+                      "prop_bone",
+                      "tail_bones"
+                    ]
+                  },
+                  "fk2ik": {
+                    "op": "pose.rigify_generic_snap_afm6ouiq4040cca6",
+                    "args": [
+                      "ctrl_bones",
+                      "input_bones",
+                      "output_bones"
+                    ]
+                  },
+                  "ik2fkRoll": {
+                    "op": "pose.rigify_leg_roll_ik2fk_afm6ouiq4040cca6",
+                    "args": [
+                      "ctrl_bones",
+                      "extra_ctrls",
+                      "fk_bones",
+                      "heel_control",
+                      "ik_bones",
+                      "prop_bone",
+                      "tail_bones"
+                    ]
+                  }
+                }
+              },
+              "buttons": 73,
+              "sections": [
+                {
+                  "name": "rig",
+                  "buttons": 3
+                },
+                {
+                  "name": "ikfk",
+                  "limbs": 4
+                },
+                {
+                  "name": "body",
+                  "buttons": 33
+                },
+                {
+                  "name": "fingers",
+                  "buttons": 40
+                }
+              ]
+            }
+          },
+          "controlSwitch": {
+            "object": "animatica_hero_rig",
+            "property": "animatica_control_rig",
+            "default": 1
+          },
+          "preview": "blender/preview/thumbnail.png",
+          "zip": {
+            "file": "animatica-hero-v004-blender.zip",
+            "tag": "animatica-hero-v004",
+            "sha256": "484a399c2ec9e4ec3a20e9a94cd09189fe0ad1ec6555c2f0e827e6a098df76df",
+            "bytes": 18555813
+          },
+          "files": [
+            {
+              "path": "blender/animatica-hero.blend",
+              "bytes": 585775,
+              "sha256": "2288fb768dd47547a4cff52e7f12ee2ca437b0f0b3def329472311b379428824",
+              "lfs": true
+            },
+            {
+              "path": "blender/animatica-hero_controls.blend",
+              "bytes": 822912,
+              "sha256": "3974d5ba1310262ab5c095ea1df02d9f6d5dd2db7d3c3b4b997d2e4871ce9f0b",
+              "lfs": true
+            },
+            {
+              "path": "blender/preview/thumbnail.png",
+              "bytes": 63214,
+              "sha256": "9eda29bc2a8c125c5d21dc236f3e5bd274f36c80c6e9b5e151cc5f0447fdea8d",
+              "lfs": true
+            }
+          ]
+        },
+        "maya": {
+          "entry": "maya/animatica-hero.ma",
+          "controlsEntry": "maya/animatica-hero_controls.ma",
+          "hikEntry": "maya/animatica-hero_hik.ma",
+          "pickerScript": "maya/animatica-hero_picker.py",
+          "project": "maya/workspace.mel",
+          "texturePathPrefix": "../source/textures/",
+          "requires": [
+            "source/textures/"
+          ],
+          "controls": "animatica",
+          "controlsReason": null,
+          "controlsInfo": {
+            "switches": {
+              "controlRig": {
+                "node": "root_ctrl",
+                "attr": "controlRig",
+                "default": 1
+              },
+              "stretch": {
+                "node": "root_ctrl",
+                "attr": "stretch",
+                "default": 0.0
+              },
+              "hideInactive": {
+                "node": "root_ctrl",
+                "attr": "hideInactive",
+                "default": 1
+              },
+              "ikfk": {
+                "arm_L": {
+                  "node": "arm_settings_L",
+                  "attr": "ikfk",
+                  "default": 1.0
+                },
+                "arm_R": {
+                  "node": "arm_settings_R",
+                  "attr": "ikfk",
+                  "default": 1.0
+                },
+                "leg_L": {
+                  "node": "leg_settings_L",
+                  "attr": "ikfk",
+                  "default": 0.0
+                },
+                "leg_R": {
+                  "node": "leg_settings_R",
+                  "attr": "ikfk",
+                  "default": 0.0
+                }
+              }
+            },
+            "locks": {
+              "count": 77,
+              "skipped": []
+            },
+            "colors": {
+              "centre": 9,
+              "L": 34,
+              "R": 34
+            },
+            "bend": {
+              "LArm": "default(-Z)",
+              "RArm": "default(-Z)",
+              "LLeg": "rest(+Z)",
+              "RLeg": "rest(+Z)"
+            },
+            "skippedLimbs": [],
+            "controls": 77,
+            "constraints": 61,
+            "pairBlends": 61,
+            "jointKeys": "pairBlend.in1",
+            "blend": "blendMatrix",
+            "picker": {
+              "scriptNode": "animatica_picker",
+              "file": "animatica-hero_picker.py",
+              "window": "AnimaticaRig",
+              "buttons": 77,
+              "functions": [
+                "animatica_rig_roots",
+                "animatica_rig_layout",
+                "animatica_rig_to_fk",
+                "animatica_rig_to_ik",
+                "animatica_rig_set_all",
+                "animatica_rig_select",
+                "animatica_rig_show",
+                "animatica_rig_ui"
+              ]
+            }
+          },
+          "hikCharacter": "hik_animatica_hero",
+          "preview": "maya/preview/thumbnail.png",
+          "zip": {
+            "file": "animatica-hero-v004-maya.zip",
+            "tag": "animatica-hero-v004",
+            "sha256": "4498f5cf72e6482b1b627400d1eb505fe0b092b56d167699232bb02e09571e69",
+            "bytes": 18967128
+          },
+          "files": [
+            {
+              "path": "maya/animatica-hero.ma",
+              "bytes": 1710615,
+              "sha256": "00ce6fa2220cdb5dc77c367ddc7f680434004447f701a74be1d1c6730d756134",
+              "lfs": true
+            },
+            {
+              "path": "maya/animatica-hero_controls.ma",
+              "bytes": 2167213,
+              "sha256": "6e2a5027d8fdd53555cfbf072b22c652a8f066a64f601eadaa79515a02ce75e4",
+              "lfs": true
+            },
+            {
+              "path": "maya/animatica-hero_hik.ma",
+              "bytes": 2164574,
+              "sha256": "38c95e40e66952f69a26a616438c15b36aeabe76d188197106051ce338dc0e2a",
+              "lfs": true
+            },
+            {
+              "path": "maya/animatica-hero_picker.py",
+              "bytes": 13028,
+              "sha256": "3000868d668e26520c9cf948289508c1660a552e9106fad29f78cd8b2de24e5d",
+              "lfs": false
+            },
+            {
+              "path": "maya/preview/thumbnail.png",
+              "bytes": 22484,
+              "sha256": "9086b0720a7fcfc212d3147c72d161c9b4d6124eb7254cfb8d57237bad3091e5",
+              "lfs": true
+            },
+            {
+              "path": "maya/workspace.mel",
+              "bytes": 188,
+              "sha256": "1454a4ac14cbf53ecf3e58007cfb73e574c586f0560000eb72106600aae46f95",
+              "lfs": false
+            }
+          ]
+        },
+        "mobu": {
+          "entry": "mobu/animatica-hero.fbx",
+          "controlsEntry": "mobu/animatica-hero_controls.fbx",
+          "requires": [],
+          "controls": "hik-definition",
+          "controlsReason": null,
+          "controlsInfo": {
+            "hikCharacter": "hik_animatica_hero",
+            "hikSlots": 73,
+            "stamped": true,
+            "stamps": [
+              "animatica_canonical",
+              "animatica_namespace",
+              "animatica_hip_height",
+              "animatica_bind_pose_json"
+            ],
+            "stampTransfer": "maya-extra-attributes"
+          },
+          "stamped": true,
+          "preview": null,
+          "zip": {
+            "file": "animatica-hero-v004-mobu.zip",
+            "tag": "animatica-hero-v004",
+            "sha256": "337c3f742b0bc1b78ba32810fa3ccc8a2c8d57d9495df713da9c0cb4f9bf1b47",
+            "bytes": 18465969
+          },
+          "files": [
+            {
+              "path": "mobu/animatica-hero.fbx",
+              "bytes": 9486032,
+              "sha256": "bde3366d7c76e866270a4c4704670f631f89db5303636a39e833d48efa121637",
+              "lfs": true
+            },
+            {
+              "path": "mobu/animatica-hero_controls.fbx",
+              "bytes": 9604704,
+              "sha256": "0b3de782b8dbb9df698b97a057724d860660ab1a8e454d14b9e021d51403c47f",
+              "lfs": true
+            }
+          ]
+        },
+        "max": {
+          "entry": "max/animatica-hero.max",
+          "controlsScript": "max/animatica-hero_controls.ms",
+          "controlsEntry": "max/animatica-hero_controls.ms",
+          "texturePathPrefix": "..\\source\\textures\\",
+          "requires": [
+            "source/textures/"
+          ],
+          "controls": "script",
+          "controlsReason": null,
+          "controlsInfo": {
+            "ikChains": [
+              "LeftArm",
+              "RightArm",
+              "LeftLeg",
+              "RightLeg"
+            ],
+            "hips": "Hips",
+            "mapped": 77,
+            "planControls": 77,
+            "switches": {
+              "controlRig": {
+                "node": "CTRL_root_ctrl",
+                "attr": "controlRig",
+                "default": 1
+              },
+              "hideInactive": {
+                "node": "CTRL_root_ctrl",
+                "attr": "hideInactive",
+                "default": 1
+              },
+              "ikfk": {
+                "arm_L": {
+                  "node": "CTRL_arm_settings_L",
+                  "attr": "ikfk",
+                  "default": 1.0
+                },
+                "arm_R": {
+                  "node": "CTRL_arm_settings_R",
+                  "attr": "ikfk",
+                  "default": 1.0
+                },
+                "leg_L": {
+                  "node": "CTRL_leg_settings_L",
+                  "attr": "ikfk",
+                  "default": 0.0
+                },
+                "leg_R": {
+                  "node": "CTRL_leg_settings_R",
+                  "attr": "ikfk",
+                  "default": 0.0
+                }
+              }
+            },
+            "planJoints": {
+              "Hips": [
+                0.0,
+                99.999933,
+                -2e-05
+              ],
+              "Spine1": [
+                -0.013699,
+                105.003736,
+                -0.053708
+              ],
+              "Spine2": [
+                -0.013699,
+                112.129038,
+                -0.083609
+              ],
+              "Chest": [
+                -0.013699,
+                119.679052,
+                -0.89951
+              ],
+              "Neck1": [
+                -0.195398,
+                145.990372,
+                -1.452909
+              ],
+              "Neck2": [
+                -0.195398,
+                153.699766,
+                0.849682
+              ],
+              "Head": [
+                -0.195399,
+                159.828655,
+                2.803377
+              ],
+              "HeadEnd": [
+                -0.191799,
+                175.89407,
+                0.967998
+              ],
+              "Jaw": [
+                -0.192799,
+                160.304285,
+                5.898378
+              ],
+              "LeftEye": [
+                3.011001,
+                165.20885,
+                10.390285
+              ],
+              "RightEye": [
+                -3.417899,
+                165.190556,
+                10.361683
+              ],
+              "LeftShoulder": [
+                1.6079,
+                142.916277,
+                4.213886
+              ],
+              "LeftArm": [
+                16.52779,
+                142.916277,
+                -1.288408
+              ],
+              "LeftForeArm": [
+                45.267043,
+                142.890803,
+                -1.269357
+              ],
+              "LeftHand": [
+                72.361029,
+                142.867326,
+                -1.247273
+              ],
+              "LeftHandThumb1": [
+                74.633913,
+                141.459873,
+                1.939907
+              ],
+              "LeftHandThumb2": [
+                78.644042,
+                139.621449,
+                3.576821
+              ],
+              "LeftHandThumb3": [
+                81.442548,
+                139.619026,
+                3.578832
+              ],
+              "LeftHandThumbEnd": [
+                84.623323,
+                139.616265,
+                3.581117
+              ],
+              "LeftHandIndex1": [
+                75.606393,
+                142.322863,
+                1.049011
+              ],
+              "LeftHandIndex2": [
+                81.970888,
+                142.328716,
+                1.232235
+              ],
+              "LeftHandIndex3": [
+                85.633281,
+                142.325547,
+                1.234867
+              ],
+              "LeftHandIndex4": [
+                87.962499,
+                142.323532,
+                1.23654
+              ],
+              "LeftHandIndexEnd": [
+                90.72204,
+                142.141091,
+                1.124668
+              ],
+              "LeftHandMiddle1": [
+                75.52399,
+                143.101362,
+                -0.243699
+              ],
+              "LeftHandMiddle2": [
+                81.715225,
+                142.840894,
+                -1.242826
+              ],
+              "LeftHandMiddle3": [
+                86.07181,
+                142.837144,
+                -1.239695
+              ],
+              "LeftHandMiddle4": [
+                89.068623,
+                142.834566,
+                -1.237541
+              ],
+              "LeftHandMiddleEnd": [
+                91.372669,
+                142.538102,
+                -1.268918
+              ],
+              "LeftHandRing1": [
+                75.243774,
+                142.812455,
+                -1.568026
+              ],
+              "LeftHandRing2": [
+                81.098877,
+                142.326923,
+                -2.939641
+              ],
+              "LeftHandRing3": [
+                85.449474,
+                142.323154,
+                -2.936515
+              ],
+              "LeftHandRing4": [
+                88.100776,
+                142.320906,
+                -2.934609
+              ],
+              "LeftHandRingEnd": [
+                90.036946,
+                142.396909,
+                -2.932992
+              ],
+              "LeftHandPinky1": [
+                75.227404,
+                142.561502,
+                -2.846897
+              ],
+              "LeftHandPinky2": [
+                80.315379,
+                141.233337,
+                -4.619998
+              ],
+              "LeftHandPinky3": [
+                83.386335,
+                141.230759,
+                -4.61779
+              ],
+              "LeftHandPinky4": [
+                84.936046,
+                141.229451,
+                -4.616676
+              ],
+              "LeftHandPinkyEnd": [
+                86.880676,
+                141.069645,
+                -4.558737
+              ],
+              "RightShoulder": [
+                -1.393799,
+                142.859361,
+                4.314586
+              ],
+              "RightArm": [
+                -16.430991,
+                142.859361,
+                -1.231007
+              ],
+              "RightForeArm": [
+                -45.167665,
+                142.859497,
+                -1.233749
+              ],
+              "RightHand": [
+                -72.301246,
+                142.860146,
+                -1.232223
+              ],
+              "RightHandThumb1": [
+                -74.575429,
+                141.476268,
+                1.93087
+              ],
+              "RightHandThumb2": [
+                -78.58702,
+                139.64885,
+                3.571589
+              ],
+              "RightHandThumb3": [
+                -81.381922,
+                139.648908,
+                3.571478
+              ],
+              "RightHandThumbEnd": [
+                -84.56573,
+                139.648957,
+                3.571352
+              ],
+              "RightHandIndex1": [
+                -75.554681,
+                142.340226,
+                1.050541
+              ],
+              "RightHandIndex2": [
+                -81.896561,
+                142.352861,
+                1.228591
+              ],
+              "RightHandIndex3": [
+                -85.551454,
+                142.352949,
+                1.228446
+              ],
+              "RightHandIndex4": [
+                -87.878948,
+                142.352987,
+                1.228354
+              ],
+              "RightHandIndexEnd": [
+                -90.640746,
+                142.172359,
+                1.115143
+              ],
+              "RightHandMiddle1": [
+                -75.469386,
+                143.106808,
+                -0.231247
+              ],
+              "RightHandMiddle2": [
+                -81.650152,
+                142.84817,
+                -1.232395
+              ],
+              "RightHandMiddle3": [
+                -85.999063,
+                142.848277,
+                -1.232567
+              ],
+              "RightHandMiddle4": [
+                -88.999364,
+                142.848374,
+                -1.232685
+              ],
+              "RightHandMiddleEnd": [
+                -91.301879,
+                142.554022,
+                -1.26448
+              ],
+              "RightHandRing1": [
+                -75.186947,
+                142.792331,
+                -1.541138
+              ],
+              "RightHandRing2": [
+                -81.041105,
+                142.306372,
+                -2.915075
+              ],
+              "RightHandRing3": [
+                -85.379914,
+                142.306459,
+                -2.915246
+              ],
+              "RightHandRing4": [
+                -88.03482,
+                142.306517,
+                -2.915351
+              ],
+              "RightHandRingEnd": [
+                -89.968423,
+                142.384051,
+                -2.915526
+              ],
+              "RightHandPinky1": [
+                -75.167607,
+                142.517532,
+                -2.81644
+              ],
+              "RightHandPinky2": [
+                -80.258958,
+                141.185568,
+                -4.589056
+              ],
+              "RightHandPinky3": [
+                -83.321649,
+                141.185655,
+                -4.589176
+              ],
+              "RightHandPinky4": [
+                -84.868143,
+                141.185665,
+                -4.589238
+              ],
+              "RightHandPinkyEnd": [
+                -86.813238,
+                141.02801,
+                -4.532115
+              ],
+              "LeftLeg": [
+                10.043198,
+                91.565438,
+                2.595682
+              ],
+              "LeftShin": [
+                10.043187,
+                48.343701,
+                1.791888
+              ],
+              "LeftFoot": [
+                10.0432,
+                6.188552,
+                -1.688805
+              ],
+              "LeftToeBase": [
+                10.0432,
+                1.129154,
+                11.542687
+              ],
+              "LeftToeEnd": [
+                10.0336,
+                -0.518546,
+                18.055784
+              ],
+              "RightLeg": [
+                -10.047298,
+                91.704616,
+                2.620279
+              ],
+              "RightShin": [
+                -10.047308,
+                48.34248,
+                1.814222
+              ],
+              "RightFoot": [
+                -10.0473,
+                6.225037,
+                -1.663604
+              ],
+              "RightToeBase": [
+                -10.047299,
+                1.145443,
+                11.620587
+              ],
+              "RightToeEnd": [
+                -10.037699,
+                -0.488856,
+                18.081186
+              ]
+            },
+            "planMapping": {
+              "formula": "p_max = (x, -z, y) / cmPerUnit; p_spec = (x, z, -y) * cmPerUnit",
+              "systemUnit": "inches",
+              "cmPerUnit": 2.54
+            },
+            "skippedLimbs": [],
+            "bend": {
+              "LArm": "default(-Z)",
+              "RArm": "default(-Z)",
+              "LLeg": "rest(+Z)",
+              "RLeg": "rest(+Z)"
+            },
+            "script": "animatica-hero_controls.ms",
+            "selfTest": {
+              "passed": true,
+              "goal": "foot_ik_L",
+              "goalMovedBy_cm": 19.99999,
+              "allEulerXYZ": true,
+              "nodesBefore": 79,
+              "nodesAfter": 79,
+              "frame5Diff": 8e-06,
+              "buildDrift": 8e-06,
+              "notEuler": "",
+              "message": "hips_ctrl turn: Spine1 moved 0.0, Hips 0.196851; ikfk arm_L=1: forearm_fk_L/hand_ik_L moved animatica:LeftHand by 16.19/0.0000 cm, visible 1.0/0.0; ikfk=0: 0.0000/9.86 cm, visible 0.0/1.0; hideInactive 0 shows both: true; controlRig 0: animatica:Hips off its Euler_XYZ layer by 0.0, off its Position_XYZ by 0.0; controlRig 1: back on the rig within 0.0"
+            },
+            "constrained": [
+              "hips_ctrl",
+              "spine_01"
+            ],
+            "locks": 77,
+            "locksSkipped": [],
+            "swivelTurns": {
+              "LeftArm": {
+                "deg": -8.0859,
+                "residual": 0.00803
+              },
+              "RightArm": {
+                "deg": 7.1777,
+                "residual": 0.0
+              },
+              "LeftLeg": {
+                "deg": 0.0,
+                "residual": 2e-06
+              },
+              "RightLeg": {
+                "deg": 0.0,
+                "residual": 0.0
+              }
+            },
+            "controlNodes": 77,
+            "root": {
+              "container": "Armature",
+              "scale": 0.393701,
+              "rotation_deg": [
+                90.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "root": {
+            "container": "Armature",
+            "scale": 0.393701,
+            "rotation_deg": [
+              90.0,
+              0.0,
+              0.0
+            ]
+          },
+          "preview": "max/preview/thumbnail.png",
+          "zip": {
+            "file": "animatica-hero-v004-max.zip",
+            "tag": "animatica-hero-v004",
+            "sha256": "7a353ca7d361e589859fed1ebb9f8b06659cbfb784c916f8c8476f185bd4375c",
+            "bytes": 17735050
+          },
+          "files": [
+            {
+              "path": "max/animatica-hero.max",
+              "bytes": 3215360,
+              "sha256": "6f2c90640bc3be938b9f994c712884bd3b1285c2dc3f6604918e19a089ee27f0",
+              "lfs": true
+            },
+            {
+              "path": "max/animatica-hero_controls.ms",
+              "bytes": 128372,
+              "sha256": "ab7060f728024f684c97fe90934247c819219a6dc6443af2037bbdaa2b2f2c13",
+              "lfs": false
+            },
+            {
+              "path": "max/preview/thumbnail.png",
+              "bytes": 51799,
+              "sha256": "f042fb65dfc6b57a05f10b01ab30c1c48838d8b9c3f30e63bcfe9c5116ad41ef",
+              "lfs": true
+            }
+          ]
+        },
+        "unreal": {
+          "entry": "unreal/Content/Animatica/animatica_hero/SK_animatica_hero.uasset",
+          "contentRoot": "unreal/Content",
+          "engineVersion": "5.8.1",
+          "ikRig": "unreal/Content/Animatica/animatica_hero/IK_animatica_hero.uasset",
+          "controlRig": "unreal/Content/Animatica/animatica_hero/Controls/CR_animatica_hero.uasset",
+          "controlsEntry": "unreal/Content/Animatica/animatica_hero/Controls/CR_animatica_hero.uasset",
+          "requires": [],
+          "controls": "ikrig",
+          "controlsReason": null,
+          "controlsInfo": {
+            "ikRig": "/Game/Animatica/animatica_hero/IK_animatica_hero",
+            "chains": 26,
+            "root": "Hips",
+            "boneNaming": "bare",
+            "skippedChains": [],
+            "controlRig": "/Game/Animatica/animatica_hero/Controls/CR_animatica_hero",
+            "modules": [
+              "Spine",
+              "Neck",
+              "LeftShoulder",
+              "RightShoulder",
+              "LeftArm",
+              "RightArm",
+              "LeftThumb",
+              "RightThumb",
+              "LeftIndex",
+              "RightIndex",
+              "LeftMiddle",
+              "RightMiddle",
+              "LeftRing",
+              "RightRing",
+              "LeftPinky",
+              "RightPinky",
+              "LeftLeg",
+              "RightLeg",
+              "LeftFoot",
+              "RightFoot"
+            ],
+            "skippedModules": [],
+            "rootModule": {
+              "module": "Root",
+              "bone": "Hips"
+            },
+            "connectors": {
+              "Root": {
+                "Root": "Bone:Hips"
+              },
+              "Spine": {
+                "Spine Primary": "Socket:Root/pelvis_socket",
+                "Spine End Bone": "Bone:Chest",
+                "Parent Control": "Control:Root/body_offset_ctrl",
+                "Pelvis Bone": "Bone:Hips",
+                "Spine Start Bone": "Bone:Spine1",
+                "Settings Control": "Control:Root/global_ctrl"
+              },
+              "Neck": {
+                "Neck Primary": "Socket:Spine/neck_socket",
+                "Parent Control": "Control:Root/body_offset_ctrl",
+                "Neck Start Bone": "Bone:Neck1",
+                "Head Bone": "Bone:Head",
+                "Settings Control": "Control:Root/global_ctrl"
+              },
+              "LeftShoulder": {
+                "Shoulder Primary": "Socket:Spine/shoulder_l_socket",
+                "Parent Control": "Control:Root/body_offset_ctrl",
+                "Chest Bone": "Bone:Chest"
+              },
+              "RightShoulder": {
+                "Shoulder Primary": "Socket:Spine/shoulder_r_socket",
+                "Parent Control": "Control:Root/body_offset_ctrl",
+                "Chest Bone": "Bone:Chest"
+              },
+              "LeftArm": {
+                "Arm Primary": "Socket:LeftShoulder/_socket",
+                "Parent Control": "Control:Root/body_offset_ctrl",
+                "Hand Bone": "Bone:LeftHand",
+                "Shoulder Bone": "Bone:LeftArm",
+                "Settings Control": "Control:Root/global_ctrl",
+                "Pole Vector Parent": "Control:Root/body_offset_ctrl",
+                "FK Arm Space": "Control:Root/body_offset_ctrl",
+                "Elbow Bone": "Bone:LeftForeArm"
+              },
+              "RightArm": {
+                "Arm Primary": "Socket:RightShoulder/_socket",
+                "Parent Control": "Control:Root/body_offset_ctrl",
+                "Hand Bone": "Bone:RightHand",
+                "Shoulder Bone": "Bone:RightArm",
+                "Settings Control": "Control:Root/global_ctrl",
+                "Pole Vector Parent": "Control:Root/body_offset_ctrl",
+                "FK Arm Space": "Control:Root/body_offset_ctrl",
+                "Elbow Bone": "Bone:RightForeArm"
+              },
+              "LeftThumb": {
+                "Finger Primary": "Socket:LeftArm/LeftHandThumbEnd_socket",
+                "Start Bone": "Bone:LeftHandThumb1",
+                "End Bone": "Bone:LeftHandThumb3",
+                "Parent Control": "Control:LeftArm/LeftHand_fk_ctrl"
+              },
+              "RightThumb": {
+                "Finger Primary": "Socket:RightArm/RightHandThumbEnd_socket",
+                "Start Bone": "Bone:RightHandThumb1",
+                "End Bone": "Bone:RightHandThumb3",
+                "Parent Control": "Control:RightArm/RightHand_fk_ctrl"
+              },
+              "LeftIndex": {
+                "Finger Primary": "Socket:LeftArm/LeftHandIndexEnd_socket",
+                "Start Bone": "Bone:LeftHandIndex1",
+                "End Bone": "Bone:LeftHandIndex4",
+                "Parent Control": "Control:LeftArm/LeftHand_fk_ctrl"
+              },
+              "RightIndex": {
+                "Finger Primary": "Socket:RightArm/RightHandIndexEnd_socket",
+                "Start Bone": "Bone:RightHandIndex1",
+                "End Bone": "Bone:RightHandIndex4",
+                "Parent Control": "Control:RightArm/RightHand_fk_ctrl"
+              },
+              "LeftMiddle": {
+                "Finger Primary": "Socket:LeftArm/LeftHandMiddleEnd_socket",
+                "Start Bone": "Bone:LeftHandMiddle1",
+                "End Bone": "Bone:LeftHandMiddle4",
+                "Parent Control": "Control:LeftArm/LeftHand_fk_ctrl"
+              },
+              "RightMiddle": {
+                "Finger Primary": "Socket:RightArm/RightHandMiddleEnd_socket",
+                "Start Bone": "Bone:RightHandMiddle1",
+                "End Bone": "Bone:RightHandMiddle4",
+                "Parent Control": "Control:RightArm/RightHand_fk_ctrl"
+              },
+              "LeftRing": {
+                "Finger Primary": "Socket:LeftArm/LeftHandRingEnd_socket",
+                "Start Bone": "Bone:LeftHandRing1",
+                "End Bone": "Bone:LeftHandRing4",
+                "Parent Control": "Control:LeftArm/LeftHand_fk_ctrl"
+              },
+              "RightRing": {
+                "Finger Primary": "Socket:RightArm/RightHandRingEnd_socket",
+                "Start Bone": "Bone:RightHandRing1",
+                "End Bone": "Bone:RightHandRing4",
+                "Parent Control": "Control:RightArm/RightHand_fk_ctrl"
+              },
+              "LeftPinky": {
+                "Finger Primary": "Socket:LeftArm/LeftHandPinkyEnd_socket",
+                "Start Bone": "Bone:LeftHandPinky1",
+                "End Bone": "Bone:LeftHandPinky4",
+                "Parent Control": "Control:LeftArm/LeftHand_fk_ctrl"
+              },
+              "RightPinky": {
+                "Finger Primary": "Socket:RightArm/RightHandPinkyEnd_socket",
+                "Start Bone": "Bone:RightHandPinky1",
+                "End Bone": "Bone:RightHandPinky4",
+                "Parent Control": "Control:RightArm/RightHand_fk_ctrl"
+              },
+              "LeftLeg": {
+                "Leg Primary": "Socket:Spine/thigh_l_socket",
+                "Thigh Bone": "Bone:LeftLeg",
+                "Pelvis Bone": "Bone:Hips",
+                "Parent Control": "Control:Root/body_offset_ctrl",
+                "Foot Bone": "Bone:LeftFoot",
+                "Settings Control": "Control:Root/global_ctrl",
+                "Pole Vector Parent": "Control:Root/body_offset_ctrl",
+                "Knee Bone": "Bone:LeftShin"
+              },
+              "RightLeg": {
+                "Leg Primary": "Socket:Spine/thigh_r_socket",
+                "Thigh Bone": "Bone:RightLeg",
+                "Pelvis Bone": "Bone:Hips",
+                "Parent Control": "Control:Root/body_offset_ctrl",
+                "Foot Bone": "Bone:RightFoot",
+                "Settings Control": "Control:Root/global_ctrl",
+                "Pole Vector Parent": "Control:Root/body_offset_ctrl",
+                "Knee Bone": "Bone:RightShin"
+              },
+              "LeftFoot": {
+                "Foot Primary": "Socket:Spine/thigh_l_socket",
+                "Ball Bone": "Bone:LeftToeBase",
+                "Foot Bone": "Bone:LeftFoot",
+                "Settings Control": "Control:Root/global_ctrl",
+                "Parent Control": null
+              },
+              "RightFoot": {
+                "Foot Primary": "Socket:Spine/thigh_r_socket",
+                "Ball Bone": "Bone:RightToeBase",
+                "Foot Bone": "Bone:RightFoot",
+                "Settings Control": "Control:Root/global_ctrl",
+                "Parent Control": null
+              }
+            },
+            "controls": 116,
+            "autoSecondary": false,
+            "cyclicDisconnected": [],
+            "compileStatus": "BS_UP_TO_DATE"
+          },
+          "preview": null,
+          "zip": {
+            "file": "animatica-hero-v004-unreal.zip",
+            "tag": "animatica-hero-v004",
+            "sha256": "b6120aa544c63c49b68f43756a65bf8f94c12ad0d087780befc9cee440e71797",
+            "bytes": 12630486
+          },
+          "files": [
+            {
+              "path": "unreal/Content/Animatica/animatica_hero/Controls/CR_animatica_hero.uasset",
+              "bytes": 155435,
+              "sha256": "4947c98473162fb1bcc0af7d90b4d5ad6400d1d063b65034b225c20f07ed9aab",
+              "lfs": true
+            },
+            {
+              "path": "unreal/Content/Animatica/animatica_hero/IK_animatica_hero.uasset",
+              "bytes": 66507,
+              "sha256": "6e6454376f4994d78d631c17c5179313f2dec03bd4ded31e294b20034520da74",
+              "lfs": true
+            },
+            {
+              "path": "unreal/Content/Animatica/animatica_hero/M_body.uasset",
+              "bytes": 6543,
+              "sha256": "4ecc5fd17bb420752871e27ce9f8de0030d5ce937e842884991cb6d2c4ad7bdc",
+              "lfs": true
+            },
+            {
+              "path": "unreal/Content/Animatica/animatica_hero/SK_animatica_hero.uasset",
+              "bytes": 2293608,
+              "sha256": "713bbadbb63b9a2941083ba9a828c58130611497b4a4257fc2fdd2d14515e343",
+              "lfs": true
+            },
+            {
+              "path": "unreal/Content/Animatica/animatica_hero/SK_animatica_hero_Skeleton.uasset",
+              "bytes": 37276,
+              "sha256": "0ec4125ce148f778033a0b78f513f9d9e5c805519b6308c781536af203579348",
+              "lfs": true
+            },
+            {
+              "path": "unreal/Content/Animatica/animatica_hero/animatica-hero_body_BaseColor.uasset",
+              "bytes": 3124156,
+              "sha256": "add5471ea285866dc3a01bb5ec4d6436ac46728a23452221e78a14786b1c96c1",
+              "lfs": true
+            },
+            {
+              "path": "unreal/Content/Animatica/animatica_hero/animatica-hero_body_NormalDX.uasset",
+              "bytes": 5500945,
+              "sha256": "50f4294df3d0d90dc8ae15b51fe26ed5ceda3dab9190805349f387e9fc31ecaa",
+              "lfs": true
+            },
+            {
+              "path": "unreal/Content/Animatica/animatica_hero/animatica-hero_body_Roughness.uasset",
+              "bytes": 2660920,
+              "sha256": "5e18cad7df7a7d21ff7841058d09cf319a7cf7933e3166556a04c2ef0e1d80fd",
+              "lfs": true
+            }
+          ]
+        }
       }
     },
     {
       "name": "cesium-man",
       "displayName": "Cesium Man",
-      "version": "v002",
-      "date": "2026-09-08",
+      "version": "v003",
+      "date": "2026-09-30",
       "tags": [
         "character",
         "rigged",
@@ -48,12 +1428,14 @@
       "apps": [
         "blender",
         "maya",
+        "mobu",
         "max",
         "unreal"
       ],
       "rigged": {
         "blender": true,
         "maya": true,
+        "mobu": true,
         "max": true,
         "unreal": true
       },
@@ -65,7 +1447,1205 @@
       },
       "source": {
         "rigged": true,
-        "bones": 19
+        "bones": 19,
+        "skeleton": {
+          "canonical": "soma77",
+          "coverage": 19,
+          "conformant": true,
+          "stamped": false,
+          "hipHeight_m": 0.6790000200271606,
+          "namespace": null
+        }
+      },
+      "release": {
+        "tag": "cesium-man-v003",
+        "zip": {
+          "file": "cesium-man-v003.zip",
+          "sha256": "8f1f7727431983a775cd021597326200b4dfdb7b3f87519dbeac2c4608265589",
+          "bytes": 4753124
+        }
+      },
+      "skeleton": {
+        "canonical": "soma77",
+        "coverage": 19,
+        "conformant": true,
+        "namespace": null,
+        "root": "Skeleton_torso_joint_1",
+        "hipHeight_m": 0.6790000200271606,
+        "stamped": false
+      },
+      "variants": {
+        "source": {
+          "entry": "source/cesium-man.fbx",
+          "usd": "source/cesium-man.usd",
+          "rig": "source/rig.json",
+          "materials": "source/materials.json",
+          "controls": null,
+          "requires": [],
+          "zip": {
+            "file": "cesium-man-v003-source.zip",
+            "tag": "cesium-man-v003",
+            "sha256": "382b4a1503fdf8f470f73ed4860a970ee193942def328a7a465e66fd7dab0dea",
+            "bytes": 1301685
+          },
+          "files": [
+            {
+              "path": "source/cesium-man.fbx",
+              "bytes": 737196,
+              "sha256": "16dcc48ae24e0c7810536b553962febac6d6559cb506f8173e60da3f2154c1cb",
+              "lfs": true
+            },
+            {
+              "path": "source/cesium-man.usd",
+              "bytes": 321392,
+              "sha256": "ee38ce47b0ead59b7da6a067a8fa3842cda52d703e3fe96dde214956685c835e",
+              "lfs": true
+            },
+            {
+              "path": "source/materials.json",
+              "bytes": 473,
+              "sha256": "90813b3ba16bed0a5488a05c18a0847719b9ac1c832f32848635290db49acbae",
+              "lfs": false
+            },
+            {
+              "path": "source/rig.json",
+              "bytes": 11597,
+              "sha256": "592caacb20c08285a66800530ff23a0ca0edfd768058eae19dfe4272f43f4b94",
+              "lfs": false
+            },
+            {
+              "path": "source/textures/cesium-man_body_BaseColor.png",
+              "bytes": 464157,
+              "sha256": "146db668ea690372cd1523f0bb557d8730e2872f19586365005173131cc82f6e",
+              "lfs": true
+            }
+          ]
+        },
+        "blender": {
+          "entry": "blender/cesium-man.blend",
+          "collection": "cesium-man",
+          "controlsEntry": "blender/cesium-man_controls.blend",
+          "app": {
+            "name": "Blender",
+            "min": "5.2"
+          },
+          "requires": [
+            "source/textures/",
+            "source/rig.json"
+          ],
+          "controls": "rigify",
+          "controlsReason": null,
+          "controlsInfo": {
+            "controlRig": "cesium_man_ctrl",
+            "controlSwitch": {
+              "object": "cesium_man_rig",
+              "property": "animatica_control_rig",
+              "default": 1
+            },
+            "pairs": 19,
+            "unpaired": [],
+            "controlsCount": 71,
+            "switches": {
+              "stretch": {
+                "bone": "root",
+                "property": "stretch",
+                "default": 0.0,
+                "drives": [
+                  "upper_arm_parent.L",
+                  "upper_arm_parent.R",
+                  "thigh_parent.L",
+                  "thigh_parent.R"
+                ],
+                "reachLimit": {
+                  "LArm": {
+                    "rigify": 0.38873,
+                    "exact": 0.37558
+                  },
+                  "RArm": {
+                    "rigify": 0.38873,
+                    "exact": 0.37558
+                  },
+                  "LLeg": {
+                    "rigify": 0.56091,
+                    "exact": 0.54194
+                  },
+                  "RLeg": {
+                    "rigify": 0.5609,
+                    "exact": 0.54194
+                  }
+                },
+                "ikStretchDriven": [
+                  "MCH-forearm_ik.L",
+                  "upper_arm_ik.L",
+                  "MCH-forearm_ik.R",
+                  "upper_arm_ik.R",
+                  "MCH-shin_ik.L",
+                  "thigh_ik.L",
+                  "MCH-shin_ik.R",
+                  "thigh_ik.R"
+                ]
+              },
+              "ikfk": {
+                "property": "IK_FK",
+                "bones": [
+                  "upper_arm_parent.L",
+                  "upper_arm_parent.R",
+                  "thigh_parent.L",
+                  "thigh_parent.R"
+                ],
+                "default": {
+                  "upper_arm_parent.L": 1.0,
+                  "upper_arm_parent.R": 1.0,
+                  "thigh_parent.L": 0.0,
+                  "thigh_parent.R": 0.0
+                }
+              },
+              "hideInactive": {
+                "bone": "root",
+                "property": "hide_inactive",
+                "default": 1,
+                "collections": [
+                  "Arm.L (IK)",
+                  "Arm.L (FK)",
+                  "Arm.R (IK)",
+                  "Arm.R (FK)",
+                  "Leg.L (IK)",
+                  "Leg.L (FK)",
+                  "Leg.R (IK)",
+                  "Leg.R (FK)"
+                ],
+                "missing": []
+              },
+              "bend": {
+                "LArm": "rest(-Y)",
+                "RArm": "rest(-Y)",
+                "LLeg": "rest(-Y)",
+                "RLeg": "rest(-Y)"
+              }
+            },
+            "locks": {
+              "bones": 56,
+              "skippedPatterns": [
+                "f_index.01.{S}",
+                "f_index.02.{S}",
+                "f_index.03.{S}",
+                "f_middle.01.{S}",
+                "f_middle.02.{S}",
+                "f_middle.03.{S}",
+                "f_ring.01.{S}",
+                "f_ring.02.{S}",
+                "f_ring.03.{S}",
+                "f_pinky.01.{S}",
+                "f_pinky.02.{S}",
+                "f_pinky.03.{S}",
+                "thumb.02.{S}",
+                "thumb.03.{S}",
+                "thumb.01.{S}",
+                "f_index.01_master.{S}",
+                "f_middle.01_master.{S}",
+                "f_ring.01_master.{S}",
+                "f_pinky.01_master.{S}",
+                "thumb.01_master.{S}"
+              ]
+            },
+            "colors": {
+              "L": 29,
+              "R": 29,
+              "center": 13
+            },
+            "picker": {
+              "text": "animatica_picker.py",
+              "panel": "VIEW3D_PT_animatica_picker_pli339mwac975ca6",
+              "pickOp": "pose.animatica_pick_pli339mwac975ca6",
+              "allOp": "pose.animatica_ikfk_all_pli339mwac975ca6",
+              "switchOp": "pose.animatica_control_rig_pli339mwac975ca6",
+              "hideOp": "pose.animatica_hide_inactive_pli339mwac975ca6",
+              "matchOp": "pose.animatica_ikfk_match_pli339mwac975ca6",
+              "snapOps": {
+                "upper_arm_parent.L": {
+                  "ik2fk": {
+                    "op": "pose.rigify_limb_ik2fk_pli339mwac975ca6",
+                    "args": [
+                      "ctrl_bones",
+                      "extra_ctrls",
+                      "fk_bones",
+                      "ik_bones",
+                      "prop_bone",
+                      "tail_bones"
+                    ]
+                  },
+                  "fk2ik": {
+                    "op": "pose.rigify_generic_snap_pli339mwac975ca6",
+                    "args": [
+                      "ctrl_bones",
+                      "input_bones",
+                      "output_bones"
+                    ]
+                  },
+                  "ik2fkRoll": null
+                },
+                "upper_arm_parent.R": {
+                  "ik2fk": {
+                    "op": "pose.rigify_limb_ik2fk_pli339mwac975ca6",
+                    "args": [
+                      "ctrl_bones",
+                      "extra_ctrls",
+                      "fk_bones",
+                      "ik_bones",
+                      "prop_bone",
+                      "tail_bones"
+                    ]
+                  },
+                  "fk2ik": {
+                    "op": "pose.rigify_generic_snap_pli339mwac975ca6",
+                    "args": [
+                      "ctrl_bones",
+                      "input_bones",
+                      "output_bones"
+                    ]
+                  },
+                  "ik2fkRoll": null
+                },
+                "thigh_parent.L": {
+                  "ik2fk": {
+                    "op": "pose.rigify_limb_ik2fk_pli339mwac975ca6",
+                    "args": [
+                      "ctrl_bones",
+                      "extra_ctrls",
+                      "fk_bones",
+                      "ik_bones",
+                      "prop_bone",
+                      "tail_bones"
+                    ]
+                  },
+                  "fk2ik": {
+                    "op": "pose.rigify_generic_snap_pli339mwac975ca6",
+                    "args": [
+                      "ctrl_bones",
+                      "input_bones",
+                      "output_bones"
+                    ]
+                  },
+                  "ik2fkRoll": {
+                    "op": "pose.rigify_leg_roll_ik2fk_pli339mwac975ca6",
+                    "args": [
+                      "ctrl_bones",
+                      "extra_ctrls",
+                      "fk_bones",
+                      "heel_control",
+                      "ik_bones",
+                      "prop_bone",
+                      "tail_bones"
+                    ]
+                  }
+                },
+                "thigh_parent.R": {
+                  "ik2fk": {
+                    "op": "pose.rigify_limb_ik2fk_pli339mwac975ca6",
+                    "args": [
+                      "ctrl_bones",
+                      "extra_ctrls",
+                      "fk_bones",
+                      "ik_bones",
+                      "prop_bone",
+                      "tail_bones"
+                    ]
+                  },
+                  "fk2ik": {
+                    "op": "pose.rigify_generic_snap_pli339mwac975ca6",
+                    "args": [
+                      "ctrl_bones",
+                      "input_bones",
+                      "output_bones"
+                    ]
+                  },
+                  "ik2fkRoll": {
+                    "op": "pose.rigify_leg_roll_ik2fk_pli339mwac975ca6",
+                    "args": [
+                      "ctrl_bones",
+                      "extra_ctrls",
+                      "fk_bones",
+                      "heel_control",
+                      "ik_bones",
+                      "prop_bone",
+                      "tail_bones"
+                    ]
+                  }
+                }
+              },
+              "buttons": 33,
+              "sections": [
+                {
+                  "name": "rig",
+                  "buttons": 3
+                },
+                {
+                  "name": "ikfk",
+                  "limbs": 4
+                },
+                {
+                  "name": "body",
+                  "buttons": 33
+                },
+                {
+                  "name": "fingers",
+                  "buttons": 0
+                }
+              ]
+            }
+          },
+          "controlSwitch": {
+            "object": "cesium_man_rig",
+            "property": "animatica_control_rig",
+            "default": 1
+          },
+          "preview": "blender/preview/thumbnail.png",
+          "zip": {
+            "file": "cesium-man-v003-blender.zip",
+            "tag": "cesium-man-v003",
+            "sha256": "9980eaa1e8925c8392ff26f484509a50e90f9073508c8ab54e3e474c1066d1c2",
+            "bytes": 1264640
+          },
+          "files": [
+            {
+              "path": "blender/cesium-man.blend",
+              "bytes": 293993,
+              "sha256": "db095a300bbf4b5abab498087377b8fce9b6e81c337bb935cc073f6876392ea5",
+              "lfs": true
+            },
+            {
+              "path": "blender/cesium-man_controls.blend",
+              "bytes": 434980,
+              "sha256": "8d9829d12e940b53630a43c0e4b256ca2dabe8fa6aa56fcd25cb86dd9468f239",
+              "lfs": true
+            },
+            {
+              "path": "blender/preview/thumbnail.png",
+              "bytes": 71279,
+              "sha256": "1edb6e71bffeb1f88892b6a65a64c54e8e055dbd4933ecc9f56a55f09a8ace4e",
+              "lfs": true
+            }
+          ]
+        },
+        "maya": {
+          "entry": "maya/cesium-man.ma",
+          "controlsEntry": "maya/cesium-man_controls.ma",
+          "hikEntry": null,
+          "pickerScript": "maya/cesium-man_picker.py",
+          "project": "maya/workspace.mel",
+          "texturePathPrefix": "../source/textures/",
+          "requires": [
+            "source/textures/"
+          ],
+          "controls": "animatica",
+          "controlsReason": null,
+          "controlsInfo": {
+            "switches": {
+              "controlRig": {
+                "node": "root_ctrl",
+                "attr": "controlRig",
+                "default": 1
+              },
+              "stretch": {
+                "node": "root_ctrl",
+                "attr": "stretch",
+                "default": 0.0
+              },
+              "hideInactive": {
+                "node": "root_ctrl",
+                "attr": "hideInactive",
+                "default": 1
+              },
+              "ikfk": {
+                "leg_L": {
+                  "node": "leg_settings_L",
+                  "attr": "ikfk",
+                  "default": 0.0
+                },
+                "leg_R": {
+                  "node": "leg_settings_R",
+                  "attr": "ikfk",
+                  "default": 0.0
+                }
+              }
+            },
+            "locks": {
+              "count": 25,
+              "skipped": [
+                "upper_arm_fk_L",
+                "upper_arm_fk_R",
+                "forearm_fk_L",
+                "forearm_fk_R",
+                "hand_fk_L",
+                "hand_fk_R",
+                "index_02_L",
+                "index_02_R",
+                "index_03_L",
+                "index_03_R",
+                "middle_02_L",
+                "middle_02_R",
+                "middle_03_L",
+                "middle_03_R",
+                "ring_02_L",
+                "ring_02_R",
+                "ring_03_L",
+                "ring_03_R",
+                "pinky_02_L",
+                "pinky_02_R",
+                "pinky_03_L",
+                "pinky_03_R",
+                "thumb_02_L",
+                "thumb_02_R",
+                "thumb_03_L",
+                "thumb_03_R",
+                "index_00_L",
+                "index_00_R",
+                "index_01_L",
+                "index_01_R",
+                "middle_00_L",
+                "middle_00_R",
+                "middle_01_L",
+                "middle_01_R",
+                "ring_00_L",
+                "ring_00_R",
+                "ring_01_L",
+                "ring_01_R",
+                "pinky_00_L",
+                "pinky_00_R",
+                "pinky_01_L",
+                "pinky_01_R",
+                "thumb_01_L",
+                "thumb_01_R",
+                "hand_ik_L",
+                "hand_ik_R",
+                "arm_pole_L",
+                "arm_pole_R",
+                "spine_02",
+                "neck_02",
+                "arm_settings_L",
+                "arm_settings_R"
+              ]
+            },
+            "colors": {
+              "centre": 7,
+              "L": 9,
+              "R": 9
+            },
+            "bend": {
+              "LLeg": "rest(+Z)",
+              "RLeg": "rest(+Z)"
+            },
+            "skippedLimbs": [
+              {
+                "limb": "arm_L",
+                "missing": [
+                  "LeftHand"
+                ]
+              },
+              {
+                "limb": "arm_R",
+                "missing": [
+                  "RightHand"
+                ]
+              }
+            ],
+            "controls": 25,
+            "constraints": 15,
+            "pairBlends": 15,
+            "jointKeys": "pairBlend.in1",
+            "blend": "blendMatrix",
+            "picker": {
+              "scriptNode": "animatica_picker",
+              "file": "cesium-man_picker.py",
+              "window": "AnimaticaRig",
+              "buttons": 25,
+              "functions": [
+                "animatica_rig_roots",
+                "animatica_rig_layout",
+                "animatica_rig_to_fk",
+                "animatica_rig_to_ik",
+                "animatica_rig_set_all",
+                "animatica_rig_select",
+                "animatica_rig_show",
+                "animatica_rig_ui"
+              ]
+            }
+          },
+          "hikCharacter": null,
+          "preview": "maya/preview/thumbnail.png",
+          "zip": {
+            "file": "cesium-man-v003-maya.zip",
+            "tag": "cesium-man-v003",
+            "sha256": "eeac104d865567b97a252ffc6d8768aeb19173b73731081fd59727c8f9265442",
+            "bytes": 1016070
+          },
+          "files": [
+            {
+              "path": "maya/cesium-man.ma",
+              "bytes": 813832,
+              "sha256": "03c90066af04f7e145f04851043803febf7b5981cf6815e1a256c8586d38ffd2",
+              "lfs": true
+            },
+            {
+              "path": "maya/cesium-man_controls.ma",
+              "bytes": 970814,
+              "sha256": "fa85b1562a3236d437b61f8c44b1e064ee7d58168e5b0c078e51a48953d8e234",
+              "lfs": true
+            },
+            {
+              "path": "maya/cesium-man_picker.py",
+              "bytes": 13028,
+              "sha256": "3000868d668e26520c9cf948289508c1660a552e9106fad29f78cd8b2de24e5d",
+              "lfs": false
+            },
+            {
+              "path": "maya/preview/thumbnail.png",
+              "bytes": 29283,
+              "sha256": "f4ab7fb41fd358685b1641405dd1502510c108a975423cfeb3a507a064655562",
+              "lfs": true
+            },
+            {
+              "path": "maya/workspace.mel",
+              "bytes": 188,
+              "sha256": "1454a4ac14cbf53ecf3e58007cfb73e574c586f0560000eb72106600aae46f95",
+              "lfs": false
+            }
+          ]
+        },
+        "mobu": {
+          "entry": "mobu/cesium-man.fbx",
+          "controlsEntry": null,
+          "requires": [],
+          "controls": null,
+          "controlsReason": "required HIK slots not covered by the joint map: LeftHand, RightHand",
+          "controlsInfo": {
+            "hikCharacter": null,
+            "hikSlots": 0,
+            "stamped": false,
+            "stamps": [
+              "animatica_namespace",
+              "animatica_hip_height",
+              "animatica_bind_pose_json"
+            ],
+            "stampTransfer": "maya-extra-attributes"
+          },
+          "stamped": false,
+          "preview": null,
+          "zip": {
+            "file": "cesium-man-v003-mobu.zip",
+            "tag": "cesium-man-v003",
+            "sha256": "6ec2ce2d213eae7604324d54ea9fb1c43b8ae3433bb86d49636ad9335451d01a",
+            "bytes": 767603
+          },
+          "files": [
+            {
+              "path": "mobu/cesium-man.fbx",
+              "bytes": 854560,
+              "sha256": "bd48bf7391645877a92ccab03bfc06ba7b78a28a65f7b4da55a762e76fc0f2b8",
+              "lfs": true
+            }
+          ]
+        },
+        "max": {
+          "entry": "max/cesium-man.max",
+          "controlsScript": "max/cesium-man_controls.ms",
+          "controlsEntry": "max/cesium-man_controls.ms",
+          "texturePathPrefix": "..\\source\\textures\\",
+          "requires": [
+            "source/textures/"
+          ],
+          "controls": "script",
+          "controlsReason": null,
+          "controlsInfo": {
+            "ikChains": [
+              "LeftLeg",
+              "RightLeg"
+            ],
+            "hips": "Hips",
+            "mapped": 19,
+            "planControls": 25,
+            "switches": {
+              "controlRig": {
+                "node": "CTRL_root_ctrl",
+                "attr": "controlRig",
+                "default": 1
+              },
+              "hideInactive": {
+                "node": "CTRL_root_ctrl",
+                "attr": "hideInactive",
+                "default": 1
+              },
+              "ikfk": {
+                "leg_L": {
+                  "node": "CTRL_leg_settings_L",
+                  "attr": "ikfk",
+                  "default": 0.0
+                },
+                "leg_R": {
+                  "node": "CTRL_leg_settings_R",
+                  "attr": "ikfk",
+                  "default": 0.0
+                }
+              }
+            },
+            "planJoints": {
+              "Hips": [
+                0.499993,
+                67.899998,
+                1e-06
+              ],
+              "Spine1": [
+                0.498649,
+                82.400029,
+                1.099998
+              ],
+              "Chest": [
+                0.498711,
+                107.405537,
+                -0.420831
+              ],
+              "Neck1": [
+                0.498947,
+                113.800079,
+                0.649995
+              ],
+              "Head": [
+                0.498946,
+                119.000256,
+                0.849975
+              ],
+              "LeftShoulder": [
+                9.600069,
+                107.400072,
+                -0.425637
+              ],
+              "LeftArm": [
+                31.150008,
+                96.450024,
+                -1.600043
+              ],
+              "LeftForeArm": [
+                45.450026,
+                87.500018,
+                6.649978
+              ],
+              "RightShoulder": [
+                -8.600058,
+                107.400053,
+                -0.425634
+              ],
+              "RightArm": [
+                -30.149957,
+                96.450082,
+                -1.600016
+              ],
+              "RightForeArm": [
+                -44.450058,
+                87.500085,
+                6.650059
+              ],
+              "LeftLeg": [
+                7.303939,
+                61.406567,
+                2.368159
+              ],
+              "LeftShin": [
+                8.209495,
+                35.18589,
+                6.819776
+              ],
+              "LeftFoot": [
+                8.349224,
+                8.581148,
+                -0.457568
+              ],
+              "LeftToeBase": [
+                8.458289,
+                2.123606,
+                2.687649
+              ],
+              "RightLeg": [
+                -6.303917,
+                61.406373,
+                2.371886
+              ],
+              "RightShin": [
+                -7.206516,
+                35.18582,
+                6.823994
+              ],
+              "RightFoot": [
+                -7.349681,
+                8.581041,
+                -0.453275
+              ],
+              "RightToeBase": [
+                -7.45691,
+                2.123513,
+                2.69201
+              ]
+            },
+            "planMapping": {
+              "formula": "p_max = (x, -z, y) / cmPerUnit; p_spec = (x, z, -y) * cmPerUnit",
+              "systemUnit": "inches",
+              "cmPerUnit": 2.54
+            },
+            "skippedLimbs": [
+              {
+                "limb": "arm_L",
+                "missing": [
+                  "LeftHand"
+                ]
+              },
+              {
+                "limb": "arm_R",
+                "missing": [
+                  "RightHand"
+                ]
+              }
+            ],
+            "bend": {
+              "LLeg": "rest(+Z)",
+              "RLeg": "rest(+Z)"
+            },
+            "script": "cesium-man_controls.ms",
+            "selfTest": {
+              "passed": true,
+              "goal": "foot_ik_L",
+              "goalMovedBy_cm": 19.939608,
+              "allEulerXYZ": true,
+              "nodesBefore": 21,
+              "nodesAfter": 21,
+              "frame5Diff": 2.3e-05,
+              "buildDrift": 9e-05,
+              "notEuler": "",
+              "message": "hips_ctrl turn: Spine1 moved 6.31117e-06, Hips 20.5098; ikfk leg_L=1: shin_fk_L/foot_ik_L moved leg_joint_L_3 by 16.52/0.0000 cm, visible 1.0/0.0; ikfk=0: 0.0000/9.91 cm, visible 0.0/1.0; hideInactive 0 shows both: true; controlRig 0: Skeleton_torso_joint_1 off its Euler_XYZ layer by 0.0, off its Position_XYZ by 0.0; controlRig 1: back on the rig within 3.8147e-06"
+            },
+            "constrained": [
+              "hips_ctrl",
+              "spine_01"
+            ],
+            "locks": 25,
+            "locksSkipped": [],
+            "swivelTurns": {
+              "LeftLeg": {
+                "deg": 0.0,
+                "residual": 2e-06
+              },
+              "RightLeg": {
+                "deg": 0.0073,
+                "residual": 2e-06
+              }
+            },
+            "controlNodes": 25,
+            "root": {
+              "container": "Armature",
+              "scale": 39.370087,
+              "rotation_deg": [
+                -90.0,
+                0.0,
+                -90.0
+              ]
+            }
+          },
+          "root": {
+            "container": "Armature",
+            "scale": 39.370087,
+            "rotation_deg": [
+              -90.0,
+              0.0,
+              -90.0
+            ]
+          },
+          "preview": "max/preview/thumbnail.png",
+          "zip": {
+            "file": "cesium-man-v003-max.zip",
+            "tag": "cesium-man-v003",
+            "sha256": "6022e8ce089d167b500e5a473c229d39ca81c59ab991d64b6c0395c78dedab2d",
+            "bytes": 761689
+          },
+          "files": [
+            {
+              "path": "max/cesium-man.max",
+              "bytes": 1560576,
+              "sha256": "e8dbd5c5f2d193f7180a53cf9e3102587f53c28f448c23fdc493864517410e0e",
+              "lfs": true
+            },
+            {
+              "path": "max/cesium-man_controls.ms",
+              "bytes": 63093,
+              "sha256": "f4957c0f50acc130623399249bfadbfa39b164ccaa4e10dcbc8069b54a38c653",
+              "lfs": false
+            },
+            {
+              "path": "max/preview/thumbnail.png",
+              "bytes": 72472,
+              "sha256": "bbf99187969231d8d44491c3c1bdee083e767309d8483019af8f6bad7cb3badf",
+              "lfs": true
+            }
+          ]
+        },
+        "unreal": {
+          "entry": "unreal/Content/Animatica/cesium_man/SK_cesium_man.uasset",
+          "contentRoot": "unreal/Content",
+          "engineVersion": "5.8.1",
+          "ikRig": "unreal/Content/Animatica/cesium_man/IK_cesium_man.uasset",
+          "controlRig": "unreal/Content/Animatica/cesium_man/Controls/CR_cesium_man.uasset",
+          "controlsEntry": "unreal/Content/Animatica/cesium_man/Controls/CR_cesium_man.uasset",
+          "requires": [],
+          "controls": "ikrig",
+          "controlsReason": null,
+          "controlsInfo": {
+            "ikRig": "/Game/Animatica/cesium_man/IK_cesium_man",
+            "chains": 6,
+            "root": "Skeleton_torso_joint_1",
+            "boneNaming": "exact",
+            "skippedChains": [
+              {
+                "chain": "LeftArm",
+                "missing": [
+                  "LeftHand"
+                ]
+              },
+              {
+                "chain": "LeftThumb",
+                "missing": [
+                  "LeftHandThumb1",
+                  "LeftHandThumb3"
+                ]
+              },
+              {
+                "chain": "LeftIndexMetacarpal",
+                "missing": [
+                  "LeftHandIndex1"
+                ]
+              },
+              {
+                "chain": "LeftIndex",
+                "missing": [
+                  "LeftHandIndex2",
+                  "LeftHandIndex4"
+                ]
+              },
+              {
+                "chain": "LeftMiddleMetacarpal",
+                "missing": [
+                  "LeftHandMiddle1"
+                ]
+              },
+              {
+                "chain": "LeftMiddle",
+                "missing": [
+                  "LeftHandMiddle2",
+                  "LeftHandMiddle4"
+                ]
+              },
+              {
+                "chain": "LeftRingMetacarpal",
+                "missing": [
+                  "LeftHandRing1"
+                ]
+              },
+              {
+                "chain": "LeftRing",
+                "missing": [
+                  "LeftHandRing2",
+                  "LeftHandRing4"
+                ]
+              },
+              {
+                "chain": "LeftPinkyMetacarpal",
+                "missing": [
+                  "LeftHandPinky1"
+                ]
+              },
+              {
+                "chain": "LeftPinky",
+                "missing": [
+                  "LeftHandPinky2",
+                  "LeftHandPinky4"
+                ]
+              },
+              {
+                "chain": "RightArm",
+                "missing": [
+                  "RightHand"
+                ]
+              },
+              {
+                "chain": "RightThumb",
+                "missing": [
+                  "RightHandThumb1",
+                  "RightHandThumb3"
+                ]
+              },
+              {
+                "chain": "RightIndexMetacarpal",
+                "missing": [
+                  "RightHandIndex1"
+                ]
+              },
+              {
+                "chain": "RightIndex",
+                "missing": [
+                  "RightHandIndex2",
+                  "RightHandIndex4"
+                ]
+              },
+              {
+                "chain": "RightMiddleMetacarpal",
+                "missing": [
+                  "RightHandMiddle1"
+                ]
+              },
+              {
+                "chain": "RightMiddle",
+                "missing": [
+                  "RightHandMiddle2",
+                  "RightHandMiddle4"
+                ]
+              },
+              {
+                "chain": "RightRingMetacarpal",
+                "missing": [
+                  "RightHandRing1"
+                ]
+              },
+              {
+                "chain": "RightRing",
+                "missing": [
+                  "RightHandRing2",
+                  "RightHandRing4"
+                ]
+              },
+              {
+                "chain": "RightPinkyMetacarpal",
+                "missing": [
+                  "RightHandPinky1"
+                ]
+              },
+              {
+                "chain": "RightPinky",
+                "missing": [
+                  "RightHandPinky2",
+                  "RightHandPinky4"
+                ]
+              }
+            ],
+            "controlRig": "/Game/Animatica/cesium_man/Controls/CR_cesium_man",
+            "modules": [
+              "Spine",
+              "Neck",
+              "LeftShoulder",
+              "RightShoulder",
+              "LeftLeg",
+              "RightLeg",
+              "LeftFoot",
+              "RightFoot"
+            ],
+            "skippedModules": [
+              {
+                "module": "LeftArm",
+                "missing": [
+                  "LeftHand"
+                ]
+              },
+              {
+                "module": "RightArm",
+                "missing": [
+                  "RightHand"
+                ]
+              },
+              {
+                "module": "LeftThumb",
+                "missing": [
+                  "LeftHandThumb1",
+                  "LeftHandThumb3"
+                ]
+              },
+              {
+                "module": "RightThumb",
+                "missing": [
+                  "RightHandThumb1",
+                  "RightHandThumb3"
+                ]
+              },
+              {
+                "module": "LeftIndex",
+                "missing": [
+                  "LeftHandIndex1",
+                  "LeftHandIndex4"
+                ]
+              },
+              {
+                "module": "RightIndex",
+                "missing": [
+                  "RightHandIndex1",
+                  "RightHandIndex4"
+                ]
+              },
+              {
+                "module": "LeftMiddle",
+                "missing": [
+                  "LeftHandMiddle1",
+                  "LeftHandMiddle4"
+                ]
+              },
+              {
+                "module": "RightMiddle",
+                "missing": [
+                  "RightHandMiddle1",
+                  "RightHandMiddle4"
+                ]
+              },
+              {
+                "module": "LeftRing",
+                "missing": [
+                  "LeftHandRing1",
+                  "LeftHandRing4"
+                ]
+              },
+              {
+                "module": "RightRing",
+                "missing": [
+                  "RightHandRing1",
+                  "RightHandRing4"
+                ]
+              },
+              {
+                "module": "LeftPinky",
+                "missing": [
+                  "LeftHandPinky1",
+                  "LeftHandPinky4"
+                ]
+              },
+              {
+                "module": "RightPinky",
+                "missing": [
+                  "RightHandPinky1",
+                  "RightHandPinky4"
+                ]
+              }
+            ],
+            "rootModule": {
+              "module": "Root",
+              "bone": "Skeleton_torso_joint_1"
+            },
+            "connectors": {
+              "Root": {
+                "Root": "Bone:Skeleton_torso_joint_1"
+              },
+              "Spine": {
+                "Spine Primary": "Socket:Root/pelvis_socket",
+                "Spine End Bone": "Bone:torso_joint_3",
+                "Parent Control": "Control:Root/body_offset_ctrl",
+                "Pelvis Bone": "Bone:Skeleton_torso_joint_1",
+                "Spine Start Bone": "Bone:Skeleton_torso_joint_2",
+                "Settings Control": "Control:Root/global_ctrl"
+              },
+              "Neck": {
+                "Neck Primary": "Socket:Spine/neck_socket",
+                "Parent Control": "Control:Root/body_offset_ctrl",
+                "Neck Start Bone": "Bone:Skeleton_neck_joint_1",
+                "Head Bone": "Bone:Skeleton_neck_joint_2",
+                "Settings Control": "Control:Root/global_ctrl"
+              },
+              "LeftShoulder": {
+                "Shoulder Primary": "Socket:Spine/shoulder_l_socket",
+                "Parent Control": "Control:Root/body_offset_ctrl",
+                "Chest Bone": "Bone:torso_joint_3"
+              },
+              "RightShoulder": {
+                "Shoulder Primary": "Socket:Spine/shoulder_r_socket",
+                "Parent Control": "Control:Root/body_offset_ctrl",
+                "Chest Bone": "Bone:torso_joint_3"
+              },
+              "LeftLeg": {
+                "Leg Primary": "Socket:Spine/thigh_l_socket",
+                "Thigh Bone": "Bone:leg_joint_L_1",
+                "Pelvis Bone": "Bone:Skeleton_torso_joint_1",
+                "Parent Control": "Control:Root/body_offset_ctrl",
+                "Foot Bone": "Bone:leg_joint_L_3",
+                "Settings Control": "Control:Root/global_ctrl",
+                "Pole Vector Parent": "Control:Root/body_offset_ctrl",
+                "Knee Bone": "Bone:leg_joint_L_2"
+              },
+              "RightLeg": {
+                "Leg Primary": "Socket:Spine/thigh_r_socket",
+                "Thigh Bone": "Bone:leg_joint_R_1",
+                "Pelvis Bone": "Bone:Skeleton_torso_joint_1",
+                "Parent Control": "Control:Root/body_offset_ctrl",
+                "Foot Bone": "Bone:leg_joint_R_3",
+                "Settings Control": "Control:Root/global_ctrl",
+                "Pole Vector Parent": "Control:Root/body_offset_ctrl",
+                "Knee Bone": "Bone:leg_joint_R_2"
+              },
+              "LeftFoot": {
+                "Foot Primary": "Socket:Spine/thigh_l_socket",
+                "Ball Bone": "Bone:leg_joint_L_5",
+                "Foot Bone": "Bone:leg_joint_L_3",
+                "Settings Control": "Control:Root/global_ctrl",
+                "Parent Control": null
+              },
+              "RightFoot": {
+                "Foot Primary": "Socket:Spine/thigh_r_socket",
+                "Ball Bone": "Bone:leg_joint_R_5",
+                "Foot Bone": "Bone:leg_joint_R_3",
+                "Settings Control": "Control:Root/global_ctrl",
+                "Parent Control": null
+              }
+            },
+            "controls": 53,
+            "autoSecondary": false,
+            "cyclicDisconnected": [],
+            "compileStatus": "BS_UP_TO_DATE"
+          },
+          "preview": null,
+          "zip": {
+            "file": "cesium-man-v003-unreal.zip",
+            "tag": "cesium-man-v003",
+            "sha256": "b63e8f99f48b49f345f231e30246cf7be4d83e8670ff19b3132caed5dbd79391",
+            "bytes": 969734
+          },
+          "files": [
+            {
+              "path": "unreal/Content/Animatica/cesium_man/Controls/CR_cesium_man.uasset",
+              "bytes": 75402,
+              "sha256": "6240a2752e1cda05ca47fc344aa3a0aa241185f281dc64ee26547fdf9dd96605",
+              "lfs": true
+            },
+            {
+              "path": "unreal/Content/Animatica/cesium_man/IK_cesium_man.uasset",
+              "bytes": 18095,
+              "sha256": "7b6111c6f57816832680a38546c74266a6abf4e7e33740abca8e361da0023ecc",
+              "lfs": true
+            },
+            {
+              "path": "unreal/Content/Animatica/cesium_man/M_body.uasset",
+              "bytes": 4965,
+              "sha256": "63b45af7777f9c91a65a55299ff8f37a0a75995d0b8b08402cd56ef0fe1d93c5",
+              "lfs": true
+            },
+            {
+              "path": "unreal/Content/Animatica/cesium_man/SK_cesium_man.uasset",
+              "bytes": 962544,
+              "sha256": "9ea46443f9732cd66500405ac6d6ea333ef279fbb4fe8e350d9a15b3e569f9fa",
+              "lfs": true
+            },
+            {
+              "path": "unreal/Content/Animatica/cesium_man/SK_cesium_man_Skeleton.uasset",
+              "bytes": 9391,
+              "sha256": "da2d990c50cd2539c8c843b8e582bc001d2bc9f2dc204cf2c59fd5783cb53048",
+              "lfs": true
+            },
+            {
+              "path": "unreal/Content/Animatica/cesium_man/cesium-man_body_BaseColor.uasset",
+              "bytes": 480469,
+              "sha256": "813d4bbfb7bf60b5eb9eac3ff888bf4e387e6f1fc858946686b143d63dde9c98",
+              "lfs": true
+            }
+          ]
+        }
       }
     }
   ]

@@ -1,0 +1,500 @@
+{
+  "skeleton": "soma77",
+  "namespace": null,
+  "jointMap": {
+    "Hips": "Skeleton_torso_joint_1",
+    "Spine1": "Skeleton_torso_joint_2",
+    "Chest": "torso_joint_3",
+    "Neck1": "Skeleton_neck_joint_1",
+    "Head": "Skeleton_neck_joint_2",
+    "LeftShoulder": "Skeleton_arm_joint_L__4_",
+    "LeftArm": "Skeleton_arm_joint_L__3_",
+    "LeftForeArm": "Skeleton_arm_joint_L__2_",
+    "RightShoulder": "Skeleton_arm_joint_R",
+    "RightArm": "Skeleton_arm_joint_R__2_",
+    "RightForeArm": "Skeleton_arm_joint_R__3_",
+    "LeftLeg": "leg_joint_L_1",
+    "LeftShin": "leg_joint_L_2",
+    "LeftFoot": "leg_joint_L_3",
+    "LeftToeBase": "leg_joint_L_5",
+    "RightLeg": "leg_joint_R_1",
+    "RightShin": "leg_joint_R_2",
+    "RightFoot": "leg_joint_R_3",
+    "RightToeBase": "leg_joint_R_5"
+  },
+  "controls": {
+    "blender": "rigify",
+    "maya": "hik",
+    "mobu": "hik-definition",
+    "max": "script",
+    "unreal": "ikrig"
+  },
+  "bones": [
+    {
+      "name": "Skeleton_torso_joint_1",
+      "parent": null,
+      "rest_world_m": [
+        0.004999816883355379,
+        0.6790000200271606,
+        -7.565672888176778e-08
+      ]
+    },
+    {
+      "name": "Skeleton_torso_joint_2",
+      "parent": "Skeleton_torso_joint_1",
+      "rest_world_m": [
+        0.004986410494893789,
+        0.824000358581543,
+        0.01099986582994461
+      ]
+    },
+    {
+      "name": "torso_joint_3",
+      "parent": "Skeleton_torso_joint_2",
+      "rest_world_m": [
+        0.004987077321857214,
+        1.0740551948547363,
+        -0.004208477679640055
+      ]
+    },
+    {
+      "name": "Skeleton_neck_joint_1",
+      "parent": "torso_joint_3",
+      "rest_world_m": [
+        0.0049894629046320915,
+        1.138000726699829,
+        0.0064997985027730465
+      ]
+    },
+    {
+      "name": "Skeleton_neck_joint_2",
+      "parent": "Skeleton_neck_joint_1",
+      "rest_world_m": [
+        0.004989465232938528,
+        1.1900025606155396,
+        0.008499604649841785
+      ]
+    },
+    {
+      "name": "Skeleton_arm_joint_L__4_",
+      "parent": "torso_joint_3",
+      "rest_world_m": [
+        0.09600069373846054,
+        1.0740004777908325,
+        -0.0042565143667161465
+      ]
+    },
+    {
+      "name": "Skeleton_arm_joint_L__3_",
+      "parent": "Skeleton_arm_joint_L__4_",
+      "rest_world_m": [
+        0.31150010228157043,
+        0.9645000100135803,
+        -0.016000501811504364
+      ]
+    },
+    {
+      "name": "Skeleton_arm_joint_L__2_",
+      "parent": "Skeleton_arm_joint_L__3_",
+      "rest_world_m": [
+        0.45450034737586975,
+        0.8749997615814209,
+        0.066499724984169
+      ]
+    },
+    {
+      "name": "Skeleton_arm_joint_R",
+      "parent": "torso_joint_3",
+      "rest_world_m": [
+        -0.08600060641765594,
+        1.0740002393722534,
+        -0.004256562329828739
+      ]
+    },
+    {
+      "name": "Skeleton_arm_joint_R__2_",
+      "parent": "Skeleton_arm_joint_R",
+      "rest_world_m": [
+        -0.3014996647834778,
+        0.9645006656646729,
+        -0.016000516712665558
+      ]
+    },
+    {
+      "name": "Skeleton_arm_joint_R__3_",
+      "parent": "Skeleton_arm_joint_R__2_",
+      "rest_world_m": [
+        -0.44450077414512634,
+        0.8750007152557373,
+        0.06650006771087646
+      ]
+    },
+    {
+      "name": "leg_joint_L_1",
+      "parent": "Skeleton_torso_joint_1",
+      "rest_world_m": [
+        0.07303928583860397,
+        0.6140657067298889,
+        0.023681532591581345
+      ]
+    },
+    {
+      "name": "leg_joint_L_2",
+      "parent": "leg_joint_L_1",
+      "rest_world_m": [
+        0.08209476619958878,
+        0.35185903310775757,
+        0.06819775700569153
+      ]
+    },
+    {
+      "name": "leg_joint_L_3",
+      "parent": "leg_joint_L_2",
+      "rest_world_m": [
+        0.08349201828241348,
+        0.08581168949604034,
+        -0.00457549886777997
+      ]
+    },
+    {
+      "name": "leg_joint_L_5",
+      "parent": "leg_joint_L_3",
+      "rest_world_m": [
+        0.08458265662193298,
+        0.02123630791902542,
+        0.026876702904701233
+      ]
+    },
+    {
+      "name": "leg_joint_R_1",
+      "parent": "Skeleton_torso_joint_1",
+      "rest_world_m": [
+        -0.06303930282592773,
+        0.6140637397766113,
+        0.02371874637901783
+      ]
+    },
+    {
+      "name": "leg_joint_R_2",
+      "parent": "leg_joint_R_1",
+      "rest_world_m": [
+        -0.07206536084413528,
+        0.3518581688404083,
+        0.06823989748954773
+      ]
+    },
+    {
+      "name": "leg_joint_R_3",
+      "parent": "leg_joint_R_2",
+      "rest_world_m": [
+        -0.07349707931280136,
+        0.08581030368804932,
+        -0.004532713443040848
+      ]
+    },
+    {
+      "name": "leg_joint_R_5",
+      "parent": "leg_joint_R_3",
+      "rest_world_m": [
+        -0.07456935942173004,
+        0.021235039457678795,
+        0.026920165866613388
+      ]
+    }
+  ],
+  "coverage": 19,
+  "conformant": true,
+  "hipHeight_m": 0.6790000200271606,
+  "stamped": false,
+  "bindPose": {
+    "joints": [
+      {
+        "name": "Skeleton_torso_joint_1",
+        "parent": null,
+        "rest_translation": [
+          0.004999816883355379,
+          0.6790000200271606,
+          -7.565672888176778e-08
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Skeleton_torso_joint_2",
+        "parent": "Skeleton_torso_joint_1",
+        "rest_translation": [
+          -1.3406388461589813e-05,
+          0.14500033855438232,
+          0.010999941486673492
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "torso_joint_3",
+        "parent": "Skeleton_torso_joint_2",
+        "rest_translation": [
+          6.668269634246826e-07,
+          0.25005483627319336,
+          -0.015208343509584665
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Skeleton_neck_joint_1",
+        "parent": "torso_joint_3",
+        "rest_translation": [
+          2.3855827748775482e-06,
+          0.06394553184509277,
+          0.010708276182413101
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Skeleton_neck_joint_2",
+        "parent": "Skeleton_neck_joint_1",
+        "rest_translation": [
+          2.3283064365386963e-09,
+          0.05200183391571045,
+          0.001999806147068739
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Skeleton_arm_joint_L__4_",
+        "parent": "torso_joint_3",
+        "rest_translation": [
+          0.09101361641660333,
+          -5.4717063903808594e-05,
+          -4.8036687076091766e-05
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Skeleton_arm_joint_L__3_",
+        "parent": "Skeleton_arm_joint_L__4_",
+        "rest_translation": [
+          0.2154994085431099,
+          -0.1095004677772522,
+          -0.011743987444788218
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Skeleton_arm_joint_L__2_",
+        "parent": "Skeleton_arm_joint_L__3_",
+        "rest_translation": [
+          0.14300024509429932,
+          -0.08950024843215942,
+          0.08250022679567337
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Skeleton_arm_joint_R",
+        "parent": "torso_joint_3",
+        "rest_translation": [
+          -0.09098768373951316,
+          -5.4955482482910156e-05,
+          -4.8084650188684464e-05
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Skeleton_arm_joint_R__2_",
+        "parent": "Skeleton_arm_joint_R",
+        "rest_translation": [
+          -0.21549905836582184,
+          -0.10949957370758057,
+          -0.011743954382836819
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Skeleton_arm_joint_R__3_",
+        "parent": "Skeleton_arm_joint_R__2_",
+        "rest_translation": [
+          -0.14300110936164856,
+          -0.08949995040893555,
+          0.08250058442354202
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "leg_joint_L_1",
+        "parent": "Skeleton_torso_joint_1",
+        "rest_translation": [
+          0.0680394689552486,
+          -0.06493431329727173,
+          0.023681608248310226
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "leg_joint_L_2",
+        "parent": "leg_joint_L_1",
+        "rest_translation": [
+          0.009055480360984802,
+          -0.26220667362213135,
+          0.044516224414110184
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "leg_joint_L_3",
+        "parent": "leg_joint_L_2",
+        "rest_translation": [
+          0.001397252082824707,
+          -0.2660473436117172,
+          -0.0727732558734715
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "leg_joint_L_5",
+        "parent": "leg_joint_L_3",
+        "rest_translation": [
+          0.0010906383395195007,
+          -0.06457538157701492,
+          0.0314522017724812
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "leg_joint_R_1",
+        "parent": "Skeleton_torso_joint_1",
+        "rest_translation": [
+          -0.06803911970928311,
+          -0.06493628025054932,
+          0.02371882203574671
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "leg_joint_R_2",
+        "parent": "leg_joint_R_1",
+        "rest_translation": [
+          -0.00902605801820755,
+          -0.262205570936203,
+          0.0445211511105299
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "leg_joint_R_3",
+        "parent": "leg_joint_R_2",
+        "rest_translation": [
+          -0.0014317184686660767,
+          -0.266047865152359,
+          -0.07277261093258858
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "leg_joint_R_5",
+        "parent": "leg_joint_R_3",
+        "rest_translation": [
+          -0.0010722801089286804,
+          -0.06457526423037052,
+          0.031452879309654236
+        ],
+        "rest_rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "coordinate_system": "right_handed_y_up",
+    "units": "meters"
+  }
+}
