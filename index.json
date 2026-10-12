@@ -54,8 +54,8 @@
         "tag": "animatica-hero-v004",
         "zip": {
           "file": "animatica-hero-v004.zip",
-          "sha256": "81b37c763da369f82bd00358a55a12790354e6a934d8d5f7a2b869df37e3a148",
-          "bytes": 65128461
+          "sha256": "75a1d7684d109243dd3cb6782ab0d4b759f192b87991d840ea34aa7c77d19eee",
+          "bytes": 65115129
         }
       },
       "skeleton": {
@@ -78,7 +78,7 @@
           "zip": {
             "file": "animatica-hero-v004-source.zip",
             "tag": "animatica-hero-v004",
-            "sha256": "19bbd19eb275e42afde00b6547dadb340de2ce0689c73963370bd93124bb0021",
+            "sha256": "1d97986c2f4cb3358e6f11c4711efc1362a59bdadf0936761804961a81f4b480",
             "bytes": 29977597
           },
           "files": [
@@ -273,16 +273,16 @@
             },
             "picker": {
               "text": "animatica_picker.py",
-              "panel": "VIEW3D_PT_animatica_picker_afm6ouiq4040cca6",
-              "pickOp": "pose.animatica_pick_afm6ouiq4040cca6",
-              "allOp": "pose.animatica_ikfk_all_afm6ouiq4040cca6",
-              "switchOp": "pose.animatica_control_rig_afm6ouiq4040cca6",
-              "hideOp": "pose.animatica_hide_inactive_afm6ouiq4040cca6",
-              "matchOp": "pose.animatica_ikfk_match_afm6ouiq4040cca6",
+              "panel": "VIEW3D_PT_animatica_picker_iwnrhqr08f04dca6",
+              "pickOp": "pose.animatica_pick_iwnrhqr08f04dca6",
+              "allOp": "pose.animatica_ikfk_all_iwnrhqr08f04dca6",
+              "switchOp": "pose.animatica_control_rig_iwnrhqr08f04dca6",
+              "hideOp": "pose.animatica_hide_inactive_iwnrhqr08f04dca6",
+              "matchOp": "pose.animatica_ikfk_match_iwnrhqr08f04dca6",
               "snapOps": {
                 "upper_arm_parent.L": {
                   "ik2fk": {
-                    "op": "pose.rigify_limb_ik2fk_afm6ouiq4040cca6",
+                    "op": "pose.rigify_limb_ik2fk_iwnrhqr08f04dca6",
                     "args": [
                       "ctrl_bones",
                       "extra_ctrls",
@@ -293,7 +293,7 @@
                     ]
                   },
                   "fk2ik": {
-                    "op": "pose.rigify_generic_snap_afm6ouiq4040cca6",
+                    "op": "pose.rigify_generic_snap_iwnrhqr08f04dca6",
                     "args": [
                       "ctrl_bones",
                       "input_bones",
@@ -304,7 +304,7 @@
                 },
                 "upper_arm_parent.R": {
                   "ik2fk": {
-                    "op": "pose.rigify_limb_ik2fk_afm6ouiq4040cca6",
+                    "op": "pose.rigify_limb_ik2fk_iwnrhqr08f04dca6",
                     "args": [
                       "ctrl_bones",
                       "extra_ctrls",
@@ -315,7 +315,7 @@
                     ]
                   },
                   "fk2ik": {
-                    "op": "pose.rigify_generic_snap_afm6ouiq4040cca6",
+                    "op": "pose.rigify_generic_snap_iwnrhqr08f04dca6",
                     "args": [
                       "ctrl_bones",
                       "input_bones",
@@ -326,7 +326,7 @@
                 },
                 "thigh_parent.L": {
                   "ik2fk": {
-                    "op": "pose.rigify_limb_ik2fk_afm6ouiq4040cca6",
+                    "op": "pose.rigify_limb_ik2fk_iwnrhqr08f04dca6",
                     "args": [
                       "ctrl_bones",
                       "extra_ctrls",
@@ -337,7 +337,7 @@
                     ]
                   },
                   "fk2ik": {
-                    "op": "pose.rigify_generic_snap_afm6ouiq4040cca6",
+                    "op": "pose.rigify_generic_snap_iwnrhqr08f04dca6",
                     "args": [
                       "ctrl_bones",
                       "input_bones",
@@ -345,7 +345,7 @@
                     ]
                   },
                   "ik2fkRoll": {
-                    "op": "pose.rigify_leg_roll_ik2fk_afm6ouiq4040cca6",
+                    "op": "pose.rigify_leg_roll_ik2fk_iwnrhqr08f04dca6",
                     "args": [
                       "ctrl_bones",
                       "extra_ctrls",
@@ -359,7 +359,7 @@
                 },
                 "thigh_parent.R": {
                   "ik2fk": {
-                    "op": "pose.rigify_limb_ik2fk_afm6ouiq4040cca6",
+                    "op": "pose.rigify_limb_ik2fk_iwnrhqr08f04dca6",
                     "args": [
                       "ctrl_bones",
                       "extra_ctrls",
@@ -370,7 +370,7 @@
                     ]
                   },
                   "fk2ik": {
-                    "op": "pose.rigify_generic_snap_afm6ouiq4040cca6",
+                    "op": "pose.rigify_generic_snap_iwnrhqr08f04dca6",
                     "args": [
                       "ctrl_bones",
                       "input_bones",
@@ -378,7 +378,7 @@
                     ]
                   },
                   "ik2fkRoll": {
-                    "op": "pose.rigify_leg_roll_ik2fk_afm6ouiq4040cca6",
+                    "op": "pose.rigify_leg_roll_ik2fk_iwnrhqr08f04dca6",
                     "args": [
                       "ctrl_bones",
                       "extra_ctrls",
@@ -421,26 +421,26 @@
           "zip": {
             "file": "animatica-hero-v004-blender.zip",
             "tag": "animatica-hero-v004",
-            "sha256": "579f4fc013ce80b70b98ecfaf2dccb969903ecfbfe6b658d659325a8ae894ab9",
-            "bytes": 18555813
+            "sha256": "7ee4df85c5f5e76c0d0fa06a17c71d67a0ff2c333ca667a9eb17b9e94eeeb096",
+            "bytes": 18542483
           },
           "files": [
             {
               "path": "blender/animatica-hero.blend",
-              "bytes": 585775,
-              "sha256": "2288fb768dd47547a4cff52e7f12ee2ca437b0f0b3def329472311b379428824",
+              "bytes": 585787,
+              "sha256": "fcbdb6f7ab239a7c5d8e4f63383735a30c43310f642dd8c6bd435ac2b7c0cb0a",
               "lfs": true
             },
             {
               "path": "blender/animatica-hero_controls.blend",
-              "bytes": 822912,
-              "sha256": "3974d5ba1310262ab5c095ea1df02d9f6d5dd2db7d3c3b4b997d2e4871ce9f0b",
+              "bytes": 811770,
+              "sha256": "54b42eb21db9dcbf2df3b28325118d494eaa67a8b7292d1c724608299bc05040",
               "lfs": true
             },
             {
               "path": "blender/preview/thumbnail.png",
-              "bytes": 63214,
-              "sha256": "9eda29bc2a8c125c5d21dc236f3e5bd274f36c80c6e9b5e151cc5f0447fdea8d",
+              "bytes": 63219,
+              "sha256": "7cd867346a4c2d1debe3a9fd9ea4c3a05aa645451c2e1bf278b4f2545289d20d",
               "lfs": true
             }
           ]
@@ -540,7 +540,7 @@
           "zip": {
             "file": "animatica-hero-v004-maya.zip",
             "tag": "animatica-hero-v004",
-            "sha256": "b92677bbc3db48b471ea0077b2a02164ea0dd6d7c7aa65be1c128c06f02659f8",
+            "sha256": "979e22783f829519855ce5e9323be374ce64f628235fac0924d009eea82667de",
             "bytes": 18967128
           },
           "files": [
@@ -605,7 +605,7 @@
           "zip": {
             "file": "animatica-hero-v004-mobu.zip",
             "tag": "animatica-hero-v004",
-            "sha256": "8088af16443c5280d5c1f0b177359080dda21c8f10fa1f67ac8802fa15e6f1fe",
+            "sha256": "503079b3a9df6d72422bfb3d83a6a47045618fcaf558756e8aae0c1cd6ea6ac3",
             "bytes": 18465969
           },
           "files": [
@@ -1137,7 +1137,7 @@
           "zip": {
             "file": "animatica-hero-v004-max.zip",
             "tag": "animatica-hero-v004",
-            "sha256": "0f44495d01c3d0d48cdf9b63cc8578a465c03378459f2051c135dd9b576d8d60",
+            "sha256": "afed80594fd3b0076e33e43e1d20bcccb07920e5a9041d1d55074fa56bfa6f34",
             "bytes": 17735050
           },
           "files": [
@@ -1358,7 +1358,7 @@
           "zip": {
             "file": "animatica-hero-v004-unreal.zip",
             "tag": "animatica-hero-v004",
-            "sha256": "374a989d75cd9a0cc8c8a2e8a8b024853a33ca1175c5224f416b17d65f593c8b",
+            "sha256": "841e77bab61e7f9d29d8f2d8988160a4ebc2f941ac2ffacb311bcd9d1e012987",
             "bytes": 12630486
           },
           "files": [
